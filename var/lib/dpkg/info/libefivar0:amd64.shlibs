@@ -1,0 +1,2 @@
+libefivar 0 libefivar0 (>= 0.21)
+libefiboot 0 libefivar0 (>= 0.21)

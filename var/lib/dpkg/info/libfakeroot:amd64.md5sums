@@ -1,0 +1,8 @@
+f9f2331782e9078d5472c77e1d9cd869  etc/ld.so.conf.d/fakeroot-x86_64-linux-gnu.conf
+26e15fedf83feff351ad8be1fdbe7a50  usr/lib/x86_64-linux-gnu/libfakeroot/libfakeroot-sysv.so
+ea56e57fcfae1a9f5105631c36b596e6  usr/lib/x86_64-linux-gnu/libfakeroot/libfakeroot-tcp.so
+22013f475206d13483f97a292368fae4  usr/share/doc/libfakeroot/README
+8ad0d0741d3649ca5ab4b47d62465275  usr/share/doc/libfakeroot/README.saving
+ad0b04e0858f5ef21e557263f7193814  usr/share/doc/libfakeroot/DEBUG
+37dc7f657a7c4e0ddf1756921ea259ac  usr/share/doc/libfakeroot/copyright
+c4ccc2f485ba884ce869c4071f1077ab  usr/share/doc/libfakeroot/changelog.Debian.gz

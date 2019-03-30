@@ -1,0 +1,9 @@
+b27a795891cc63829df18967c8925712  usr/lib/perl5/BerkeleyDB.pm
+e84b1570a1f7c45aac19aab61948b9c9  usr/lib/perl5/BerkeleyDB.pod
+b048c704c2cbe8b3be1f16df1939c927  usr/lib/perl5/BerkeleyDB/Btree.pm
+ff9a029e17f097fc2cb26bad43408f54  usr/lib/perl5/BerkeleyDB/Hash.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/BerkeleyDB/BerkeleyDB.bs
+bd75993a4e7335dcf6e7da4cddb7fbb2  usr/lib/perl5/auto/BerkeleyDB/BerkeleyDB.so
+48544307890189c85cc9a61e8341211f  usr/share/doc/libberkeleydb-perl/changelog.Debian.gz
+7bc3a06a67ae2a7ff9211c597fdb2029  usr/share/doc/libberkeleydb-perl/copyright
+829806e19d670b53e850e9b4a8679f90  usr/share/man/man3/BerkeleyDB.3pm.gz

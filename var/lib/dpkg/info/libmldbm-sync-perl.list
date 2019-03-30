@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/MLDBM::Sync.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/MLDBM
+/usr/share/perl5/MLDBM/Sync
+/usr/share/perl5/MLDBM/Sync/SDBM_File.pm
+/usr/share/perl5/MLDBM/Sync.pm
+/usr/share/doc
+/usr/share/doc/libmldbm-sync-perl
+/usr/share/doc/libmldbm-sync-perl/copyright
+/usr/share/doc/libmldbm-sync-perl/changelog.Debian.gz

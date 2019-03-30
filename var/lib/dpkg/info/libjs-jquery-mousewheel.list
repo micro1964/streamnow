@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/javascript
+/usr/share/javascript/jquery-mousewheel
+/usr/share/javascript/jquery-mousewheel/jquery.mousewheel.js
+/usr/share/javascript/jquery-mousewheel/jquery.mousewheel.min.js
+/usr/share/doc
+/usr/share/doc/libjs-jquery-mousewheel
+/usr/share/doc/libjs-jquery-mousewheel/test
+/usr/share/doc/libjs-jquery-mousewheel/test/index.html
+/usr/share/doc/libjs-jquery-mousewheel/README.Debian
+/usr/share/doc/libjs-jquery-mousewheel/changelog.Debian.gz
+/usr/share/doc/libjs-jquery-mousewheel/copyright

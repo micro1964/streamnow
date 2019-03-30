@@ -1,0 +1,10 @@
+7ad2c1336b8af4c20599afcbc3e4e215  usr/lib/perl5/JSON/Syck.pm
+faf3899be64052c25fb1c5a342ea0918  usr/lib/perl5/YAML/Dumper/Syck.pm
+fef0af9748da59a1e61b8dbd02e18110  usr/lib/perl5/YAML/Loader/Syck.pm
+fcb1a65a214f6d68254e5306f8eaf0c4  usr/lib/perl5/YAML/Syck.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/YAML/Syck/Syck.bs
+d2bf66f95ed5ca1e8dd19a5c4876aafe  usr/lib/perl5/auto/YAML/Syck/Syck.so
+872ae05f72b5ad84057da9dd4d9f7d18  usr/share/doc/libyaml-syck-perl/changelog.Debian.gz
+86f636e35bf048c2a70d40ea31758fe3  usr/share/doc/libyaml-syck-perl/copyright
+065aab119ff4d0c3b82a7d00da04a453  usr/share/man/man3/JSON::Syck.3pm.gz
+16ef3503709bf3e3ae05e43d9f250d17  usr/share/man/man3/YAML::Syck.3pm.gz

@@ -1,0 +1,30 @@
+# Only try to automount DO block volumes.
+SUBSYSTEM!="block", GOTO="do_automount_end"
+ENV{ID_VENDOR}!="DO", GOTO="do_automount_end"
+ENV{ID_MODEL}!="Volume", GOTO="do_automount_end"
+# Only automount on the "add" action.
+ACTION!="add", GOTO="do_automount_end"
+# Only try to automount filesystems we know about.
+ENV{ID_FS_TYPE}!="ext4|xfs", GOTO="do_automount_end"
+
+# Create a temporary mountpoint and temporary location for the first-mount script.
+IMPORT{program}="/bin/sh -c 'echo TMP_MOUNT_DIR=$(mktemp -d -p /mnt .do-first-mount-XXXXXXXXX)'"
+IMPORT{program}="/bin/sh -c 'echo TMP_SCRIPT=$(mktemp -t .do-first-mount-XXXXXXXXX.sh)'"
+
+# Mount the volume at the temp mountpoint and copy the script off, then unmount.
+RUN{program}+="/bin/mount -o ro /dev/%k %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/sh -c '/bin/cp %E{TMP_MOUNT_DIR}/.first-mount.sh %E{TMP_SCRIPT} || exit 0'"
+RUN{program}+="/bin/umount %E{TMP_MOUNT_DIR}"
+RUN{program}+="/bin/rmdir %E{TMP_MOUNT_DIR}"
+
+# Run the first-mount script. If it didn't exist this will be a no-op.
+RUN{program}+="/bin/sh %E{TMP_SCRIPT} '%E{ID_SERIAL}' '%E{ID_FS_TYPE}' '%E{ID_SERIAL_SHORT}' '%E{ID_FS_UUID}' '%E{ID_FS_LABEL}'"
+
+# Clean up.
+RUN{program}+="/bin/rm %E{TMP_SCRIPT}"
+
+# Finally, try and mount the volume. On first mount this will fail, but that's
+# OK because the volume was already mounted by the first-mount script.
+RUN{program}+="/bin/sh -c '/bin/mount /dev/%k || exit 0'"
+
+LABEL="do_automount_end"

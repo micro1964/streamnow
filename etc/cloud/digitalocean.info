@@ -1,0 +1,7 @@
+import_url:   http://cloud-images.ubuntu.com/releases/trusty/release/ubuntu-14.04-server-cloudimg-amd64-uefi1.img
+import_date:  2018-12-08
+distribution: Ubuntu
+release:      14.04
+codename:     trusty
+build_arch:   amd64
+build_tag:    841f6fd2-8960-443b-bf9e-c8250732245f

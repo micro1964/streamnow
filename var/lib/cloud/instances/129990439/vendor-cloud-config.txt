@@ -1,0 +1,27 @@
+#cloud-config
+
+# from 1 files
+# cloud-config
+
+---
+disable_root: false
+manage_etc_hosts: true
+ssh_pwauth: false
+system_info:
+    default_user:
+        lock_passwd: false
+        name: root
+        shell: /bin/bash
+    distro: ubuntu
+    package_mirrors:
+    -   arches:
+        - i386
+        - amd64
+        failsafe:
+            primary: http://archive.ubuntu.com/ubuntu
+            security: http://security.ubuntu.com/ubuntu
+        search:
+            primary:
+            - http://mirrors.digitalocean.com/ubuntu/
+            security: []
+...

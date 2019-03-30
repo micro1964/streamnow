@@ -1,0 +1,22 @@
+[Mon Mar 25 06:30:01.242300 2019] [ssl:warn] [pid 9947] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Mon Mar 25 06:30:01.242436 2019] [mpm_prefork:notice] [pid 9947] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.26 OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Mar 25 06:30:01.242446 2019] [core:notice] [pid 9947] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 27 10:53:20.262388 2019] [:error] [pid 21521] [client 142.93.190.59:43297] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/wp-login.php' not found or unable to stat, referer: http://webcityz.tv/wp-login.php
+[Thu Mar 28 06:04:56.768245 2019] [:error] [pid 25830] [client 193.106.30.98:47782] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/hook-filters.php' not found or unable to stat
+[Thu Mar 28 13:52:47.895590 2019] [:error] [pid 26407] [client 47.93.189.7:55313] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/elrekt.php' not found or unable to stat, referer: http://157.230.91.0/elrekt.php
+[Thu Mar 28 13:52:49.405438 2019] [:error] [pid 26414] [client 47.93.189.7:55851] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/index.php' not found or unable to stat, referer: http://157.230.91.0/index.php
+[Thu Mar 28 13:57:29.507928 2019] [:error] [pid 26420] [client 104.236.119.200:54524] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/wp-login.php' not found or unable to stat, referer: http://157.230.91.0/wp-login.php
+[Thu Mar 28 14:52:55.990000 2019] [:error] [pid 25829] [client 138.68.163.84:43662] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/wp-login.php' not found or unable to stat, referer: http://157.230.91.0/wp-login.php
+[Fri Mar 29 00:56:03.204095 2019] [:error] [pid 26418] [client 184.173.156.228:46812] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/elrekt.php' not found or unable to stat, referer: http://157.230.91.0/elrekt.php
+[Fri Mar 29 00:56:03.363945 2019] [:error] [pid 26420] [client 184.173.156.228:49027] script '/var/www/html/streamnow-frontend-reggy/dist/theme1-new/index.php' not found or unable to stat, referer: http://157.230.91.0/index.php
+[Sat Mar 30 03:20:13.265435 2019] [ssl:error] [pid 19447] AH02032: Hostname webcityz.tv provided via SNI and hostname 157.230.91.0 provided via HTTP are different
+[Sat Mar 30 17:52:11.622239 2019] [ssl:error] [pid 26420] AH02032: Hostname webcityz.tv provided via SNI and hostname 157.230.91.0 provided via HTTP are different
+[Sat Mar 30 19:05:52.061289 2019] [authz_core:error] [pid 26419] [client 185.153.198.224:45814] AH01630: client denied by server configuration: /var/www/html/streamnow-frontend-reggy/dist/theme1-new/server-status
+[Sat Mar 30 19:08:23.138232 2019] [authz_core:error] [pid 12685] [client 185.153.198.224:51878] AH01630: client denied by server configuration: /var/www/html/streamnow-frontend-reggy/dist/theme1-new/server-status
+[Sat Mar 30 19:27:24.972286 2019] [authz_core:error] [pid 2995] [client 185.153.198.224:43650] AH01630: client denied by server configuration: /var/www/html/streamnow-frontend-reggy/dist/theme1-new/server-status
+[Sat Mar 30 19:39:56.427451 2019] [authz_core:error] [pid 12685] [client 185.153.198.224:42374] AH01630: client denied by server configuration: /var/www/html/streamnow-frontend-reggy/dist/theme1-new/server-status
+[Sat Mar 30 19:43:40.748811 2019] [mpm_prefork:notice] [pid 9947] AH00169: caught SIGTERM, shutting down
+[Sat Mar 30 19:44:36.725120 2019] [ssl:warn] [pid 1147] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Mar 30 19:44:36.970373 2019] [ssl:warn] [pid 1151] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Mar 30 19:44:36.977952 2019] [mpm_prefork:notice] [pid 1151] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.26 OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Mar 30 19:44:36.978017 2019] [core:notice] [pid 1151] AH00094: Command line: '/usr/sbin/apache2'

@@ -1,0 +1,7 @@
+Removed session 2.
+/proc/self/fd/9: 4: ulimit: error setting limit (Invalid argument)
+Watching system buttons on /dev/input/event0 (Power Button)
+New seat seat0.
+New session c1 of user root.
+Removed session c1.
+New session c2 of user root.

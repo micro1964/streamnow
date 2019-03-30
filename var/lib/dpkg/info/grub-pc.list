@@ -1,0 +1,4 @@
+/etc
+/etc/kernel
+/etc/kernel/postrm.d
+/etc/kernel/postinst.d

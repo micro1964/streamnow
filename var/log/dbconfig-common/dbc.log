@@ -1,0 +1,5 @@
+granting access to database phpmyadmin for phpmyadmin@localhost: success.
+verifying access for phpmyadmin@localhost: success.
+creating database phpmyadmin: success.
+verifying database phpmyadmin exists: success.
+populating database via sql...  done.

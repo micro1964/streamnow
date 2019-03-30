@@ -1,0 +1,484 @@
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Linux version 3.13.0-163-generic (buildd@lgw01-amd64-058) (gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ) #213-Ubuntu SMP Thu Nov 15 02:19:07 UTC 2018 (Ubuntu 3.13.0-163.213-generic 3.13.11-ckt39)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.13.0-163-generic root=LABEL=cloudimg-rootfs console=ttyS0
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] KERNEL supported cpus:
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   Intel GenuineIntel
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   AMD AuthenticAMD
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   Centaur CentaurHauls
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007fff8fff] usable
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff9000-0x000000007fffffff] reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] SMBIOS 2.4 present.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] DMI: DigitalOcean Droplet, BIOS 20171212 12/12/2017
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Hypervisor detected: KVM
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] No AGP bridge found
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] e820: last_pfn = 0x7fff9 max_arch_pfn = 0x400000000
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] MTRR default type: write-back
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] MTRR fixed ranges enabled:
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   00000-9FFFF write-back
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   A0000-BFFFF uncachable
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   C0000-FFFFF write-protect
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] MTRR variable ranges enabled:
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   0 base 0080000000 mask FF80000000 uncachable
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   1 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   2 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   3 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   4 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   5 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   6 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   7 disabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] found SMP MP-table at [mem 0x000f1280-0x000f128f] mapped at [ffff8800000f1280]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Using GB pages for direct mapping
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BRK [0x01ff0000, 0x01ff0fff] PGTABLE
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BRK [0x01ff1000, 0x01ff1fff] PGTABLE
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BRK [0x01ff2000, 0x01ff2fff] PGTABLE
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] init_memory_mapping: [mem 0x7fc00000-0x7fdfffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x7fc00000-0x7fdfffff] page 2M
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BRK [0x01ff3000, 0x01ff3fff] PGTABLE
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] init_memory_mapping: [mem 0x7c000000-0x7fbfffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x7c000000-0x7fbfffff] page 2M
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x7bffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x00200000-0x7bffffff] page 2M
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] init_memory_mapping: [mem 0x7fe00000-0x7fff8fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [mem 0x7fe00000-0x7fff8fff] page 4k
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] BRK [0x01ff4000, 0x01ff4fff] PGTABLE
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] RAMDISK: [mem 0x371d2000-0x378e0fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: RSDP 00000000000f10f0 000014 (v00 BOCHS )
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: RSDT 000000007fffe470 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: FACP 000000007fffff80 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: DSDT 000000007fffe4b0 001135 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: FACS 000000007fffff40 000040
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: SSDT 000000007ffff720 000819 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: APIC 000000007ffff630 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: HPET 000000007ffff5f0 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] No NUMA configuration found
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007fff8fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Initmem setup node 0 [mem 0x00000000-0x7fff8fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   NODE_DATA [mem 0x7fff4000-0x7fff8fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] kvm-clock: cpu 0, msr 0:7fff0001, boot clock
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]  [ffffea0000000000-ffffea0001ffffff] PMD -> [ffff88007d600000-ffff88007f5fffff] on node 0
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Zone ranges:
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   Normal   empty
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Movable zone start for each node
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Early memory node ranges
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   node   0: [mem 0x00100000-0x7fff8fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] On node 0 totalpages: 524183
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA zone: 21 pages reserved
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA32 zone: 8128 pages used for memmap
+Mar 30 19:44:35 Streamnow kernel: [    0.000000]   DMA32 zone: 520185 pages, LIFO batch:31
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ0 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ2 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ5 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ9 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ10 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: IRQ11 used by override.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] nr_irqs_gsi: 40
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] e820: [mem 0x80000000-0xfeffbfff] available for PCI devices
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:1 nr_node_ids:1
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88007fc00000 s84096 r8192 d22400 u2097152
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] pcpu-alloc: s84096 r8192 d22400 u2097152 alloc=1*2097152
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] pcpu-alloc: [0] 0 
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] kvm-clock: cpu 0, msr 0:7fff0001, primary cpu clock
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] KVM setup async PF for cpu 0
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] kvm-stealtime: cpu 0, msr 7fc0fc80
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515970
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Policy zone: DMA32
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.13.0-163-generic root=LABEL=cloudimg-rootfs console=ttyS0
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Checking aperture...
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] No AGP bridge found
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Memory: 2039908K/2096732K available (7502K kernel code, 1163K rwdata, 3440K rodata, 1376K init, 1448K bss, 56824K reserved)
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Hierarchical RCU implementation.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=1.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] 	Offload RCU callbacks from all CPUs
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] 	Offload RCU callbacks from CPUs: 0.
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] NR_IRQS:16640 nr_irqs:256 16
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] Console: colour VGA+ 80x25
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] console [ttyS0] enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] allocated 8388608 bytes of page_cgroup
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] hpet clockevent registered
+Mar 30 19:44:35 Streamnow kernel: [    0.000000] tsc: Detected 2199.998 MHz processor
+Mar 30 19:44:35 Streamnow kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4399.99 BogoMIPS (lpj=8799992)
+Mar 30 19:44:35 Streamnow kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Mar 30 19:44:35 Streamnow kernel: [    0.008066] Security Framework initialized
+Mar 30 19:44:35 Streamnow kernel: [    0.009196] AppArmor: AppArmor initialized
+Mar 30 19:44:35 Streamnow kernel: [    0.010212] Yama: becoming mindful.
+Mar 30 19:44:35 Streamnow kernel: [    0.016119] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.022139] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.028277] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.030230] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.032616] Initializing cgroup subsys memory
+Mar 30 19:44:35 Streamnow kernel: [    0.033941] Initializing cgroup subsys devices
+Mar 30 19:44:35 Streamnow kernel: [    0.036015] Initializing cgroup subsys freezer
+Mar 30 19:44:35 Streamnow kernel: [    0.037314] Initializing cgroup subsys blkio
+Mar 30 19:44:35 Streamnow kernel: [    0.038599] Initializing cgroup subsys perf_event
+Mar 30 19:44:35 Streamnow kernel: [    0.040007] Initializing cgroup subsys hugetlb
+Mar 30 19:44:35 Streamnow kernel: [    0.042230] mce: CPU supports 10 MCE banks
+Mar 30 19:44:35 Streamnow kernel: [    0.043495] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 30 19:44:35 Streamnow kernel: [    0.043495] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+Mar 30 19:44:35 Streamnow kernel: [    0.044012] Spectre V2 : Mitigation: Full generic retpoline
+Mar 30 19:44:35 Streamnow kernel: [    0.048004] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Mar 30 19:44:35 Streamnow kernel: [    0.050311] Speculative Store Bypass: Vulnerable
+Mar 30 19:44:35 Streamnow kernel: [    0.083347] Freeing SMP alternatives memory: 32K (ffffffff81e7c000 - ffffffff81e84000)
+Mar 30 19:44:35 Streamnow kernel: [    0.092399] ACPI: Core revision 20131115
+Mar 30 19:44:35 Streamnow kernel: [    0.094344] ACPI: All ACPI Tables successfully acquired
+Mar 30 19:44:35 Streamnow kernel: [    0.096009] ftrace: allocating 28753 entries in 113 pages
+Mar 30 19:44:35 Streamnow kernel: [    0.116374] smpboot: Max logical packages: 1
+Mar 30 19:44:35 Streamnow kernel: [    0.120007] smpboot: APIC(0) Converting physical 0 to logical package 0
+Mar 30 19:44:35 Streamnow kernel: [    0.124196] Enabling x2apic
+Mar 30 19:44:35 Streamnow kernel: [    0.125233] Enabled x2apic
+Mar 30 19:44:35 Streamnow kernel: [    0.126601] Switched APIC routing to physical x2apic.
+Mar 30 19:44:35 Streamnow kernel: [    0.129727] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar 30 19:44:35 Streamnow kernel: [    0.132002] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (fam: 06, model: 4f, stepping: 01)
+Mar 30 19:44:35 Streamnow kernel: [    0.135340] TSC deadline timer enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.135373] Performance Events: generic architected perfmon, Intel PMU driver.
+Mar 30 19:44:35 Streamnow kernel: [    0.136000] ... version:                2
+Mar 30 19:44:35 Streamnow kernel: [    0.136000] ... bit width:              48
+Mar 30 19:44:35 Streamnow kernel: [    0.136006] ... generic registers:      4
+Mar 30 19:44:35 Streamnow kernel: [    0.137343] ... value mask:             0000ffffffffffff
+Mar 30 19:44:35 Streamnow kernel: [    0.139392] ... max period:             000000007fffffff
+Mar 30 19:44:35 Streamnow kernel: [    0.140009] ... fixed-purpose events:   3
+Mar 30 19:44:35 Streamnow kernel: [    0.141597] ... event mask:             000000070000000f
+Mar 30 19:44:35 Streamnow kernel: [    0.157286] KVM setup paravirtual spinlock
+Mar 30 19:44:35 Streamnow kernel: [    0.160987] x86: Booted up 1 node, 1 CPUs
+Mar 30 19:44:35 Streamnow kernel: [    0.162335] smpboot: Total of 1 processors activated (4399.99 BogoMIPS)
+Mar 30 19:44:35 Streamnow kernel: [    0.164355] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+Mar 30 19:44:35 Streamnow kernel: [    0.167350] devtmpfs: initialized
+Mar 30 19:44:35 Streamnow kernel: [    0.169678] EVM: security.selinux
+Mar 30 19:44:35 Streamnow kernel: [    0.170803] EVM: security.SMACK64
+Mar 30 19:44:35 Streamnow kernel: [    0.171921] EVM: security.ima
+Mar 30 19:44:35 Streamnow kernel: [    0.172006] EVM: security.capability
+Mar 30 19:44:35 Streamnow kernel: [    0.174553] pinctrl core: initialized pinctrl subsystem
+Mar 30 19:44:35 Streamnow kernel: [    0.176085] regulator-dummy: no parameters
+Mar 30 19:44:35 Streamnow kernel: [    0.177459] RTC time: 19:44:26, date: 03/30/19
+Mar 30 19:44:35 Streamnow kernel: [    0.178917] NET: Registered protocol family 16
+Mar 30 19:44:35 Streamnow kernel: [    0.180202] cpuidle: using governor ladder
+Mar 30 19:44:35 Streamnow kernel: [    0.181515] cpuidle: using governor menu
+Mar 30 19:44:35 Streamnow kernel: [    0.182804] ACPI: bus type PCI registered
+Mar 30 19:44:35 Streamnow kernel: [    0.184018] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 30 19:44:35 Streamnow kernel: [    0.186210] PCI: Using configuration type 1 for base access
+Mar 30 19:44:35 Streamnow kernel: [    0.189359] bio: create slab <bio-0> at 0
+Mar 30 19:44:35 Streamnow kernel: [    0.191108] ACPI: Added _OSI(Module Device)
+Mar 30 19:44:35 Streamnow kernel: [    0.192009] ACPI: Added _OSI(Processor Device)
+Mar 30 19:44:35 Streamnow kernel: [    0.193374] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 30 19:44:35 Streamnow kernel: [    0.194838] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 30 19:44:35 Streamnow kernel: [    0.198457] ACPI: Interpreter enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.199496] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20131115/hwxface-580)
+Mar 30 19:44:35 Streamnow kernel: [    0.201556] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20131115/hwxface-580)
+Mar 30 19:44:35 Streamnow kernel: [    0.204024] ACPI: (supports S0 S3 S4 S5)
+Mar 30 19:44:35 Streamnow kernel: [    0.205484] ACPI: Using IOAPIC for interrupt routing
+Mar 30 19:44:35 Streamnow kernel: [    0.207228] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 30 19:44:35 Streamnow kernel: [    0.208268] ACPI: No dock devices found.
+Mar 30 19:44:35 Streamnow kernel: [    0.213203] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 30 19:44:35 Streamnow kernel: [    0.215764] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 30 19:44:35 Streamnow kernel: [    0.216016] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar 30 19:44:35 Streamnow kernel: [    0.217917] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 30 19:44:35 Streamnow kernel: [    0.220354] acpiphp: Slot [3] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.221732] acpiphp: Slot [4] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.223049] acpiphp: Slot [5] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.224043] acpiphp: Slot [6] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.225178] acpiphp: Slot [7] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.226437] acpiphp: Slot [8] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.227583] acpiphp: Slot [9] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.228033] acpiphp: Slot [10] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.229511] acpiphp: Slot [11] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.230960] acpiphp: Slot [12] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.232062] acpiphp: Slot [13] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.233607] acpiphp: Slot [14] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.235141] acpiphp: Slot [15] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.236038] acpiphp: Slot [16] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.237609] acpiphp: Slot [17] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.239166] acpiphp: Slot [18] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.240030] acpiphp: Slot [19] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.241426] acpiphp: Slot [20] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.242899] acpiphp: Slot [21] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.244030] acpiphp: Slot [22] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.245577] acpiphp: Slot [23] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.247029] acpiphp: Slot [24] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.248030] acpiphp: Slot [25] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.249458] acpiphp: Slot [26] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.250915] acpiphp: Slot [27] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.252049] acpiphp: Slot [28] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.253615] acpiphp: Slot [29] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.254989] acpiphp: Slot [30] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.256053] acpiphp: Slot [31] registered
+Mar 30 19:44:35 Streamnow kernel: [    0.257485] PCI host bridge to bus 0000:00
+Mar 30 19:44:35 Streamnow kernel: [    0.258870] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 30 19:44:35 Streamnow kernel: [    0.260010] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Mar 30 19:44:35 Streamnow kernel: [    0.262068] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.264013] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.266312] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.268063] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Mar 30 19:44:35 Streamnow kernel: [    0.268586] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Mar 30 19:44:35 Streamnow kernel: [    0.269241] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Mar 30 19:44:35 Streamnow kernel: [    0.272008] pci 0000:00:01.1: reg 0x20: [io  0xc140-0xc14f]
+Mar 30 19:44:35 Streamnow kernel: [    0.273322] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Mar 30 19:44:35 Streamnow kernel: [    0.276009] pci 0000:00:01.2: reg 0x20: [io  0xc0c0-0xc0df]
+Mar 30 19:44:35 Streamnow kernel: [    0.277664] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Mar 30 19:44:35 Streamnow kernel: [    0.278386] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Mar 30 19:44:35 Streamnow kernel: [    0.280033] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Mar 30 19:44:35 Streamnow kernel: [    0.282776] pci 0000:00:02.0: [1b36:0100] type 00 class 0x030000
+Mar 30 19:44:35 Streamnow kernel: [    0.287527] pci 0000:00:02.0: reg 0x10: [mem 0xf8000000-0xfbffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.291393] pci 0000:00:02.0: reg 0x14: [mem 0xfc000000-0xfcffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.296000] pci 0000:00:02.0: reg 0x18: [mem 0xfd050000-0xfd051fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.299388] pci 0000:00:02.0: reg 0x1c: [io  0xc0e0-0xc0ff]
+Mar 30 19:44:35 Streamnow kernel: [    0.312000] pci 0000:00:02.0: reg 0x30: [mem 0xfd040000-0xfd04ffff pref]
+Mar 30 19:44:35 Streamnow kernel: [    0.312684] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+Mar 30 19:44:35 Streamnow kernel: [    0.314025] pci 0000:00:03.0: reg 0x10: [io  0xc100-0xc11f]
+Mar 30 19:44:35 Streamnow kernel: [    0.315506] pci 0000:00:03.0: reg 0x14: [mem 0xfd052000-0xfd052fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.322791] pci 0000:00:03.0: reg 0x30: [mem 0xfd000000-0xfd03ffff pref]
+Mar 30 19:44:35 Streamnow kernel: [    0.323466] pci 0000:00:04.0: [1af4:1004] type 00 class 0x010000
+Mar 30 19:44:35 Streamnow kernel: [    0.324546] pci 0000:00:04.0: reg 0x10: [io  0xc000-0xc03f]
+Mar 30 19:44:35 Streamnow kernel: [    0.325544] pci 0000:00:04.0: reg 0x14: [mem 0xfd053000-0xfd053fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.332862] pci 0000:00:05.0: [1af4:1001] type 00 class 0x010000
+Mar 30 19:44:35 Streamnow kernel: [    0.333581] pci 0000:00:05.0: reg 0x10: [io  0xc040-0xc07f]
+Mar 30 19:44:35 Streamnow kernel: [    0.334322] pci 0000:00:05.0: reg 0x14: [mem 0xfd054000-0xfd054fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.339572] pci 0000:00:06.0: [1af4:1001] type 00 class 0x010000
+Mar 30 19:44:35 Streamnow kernel: [    0.340531] pci 0000:00:06.0: reg 0x10: [io  0xc080-0xc0bf]
+Mar 30 19:44:35 Streamnow kernel: [    0.341548] pci 0000:00:06.0: reg 0x14: [mem 0xfd055000-0xfd055fff]
+Mar 30 19:44:35 Streamnow kernel: [    0.347967] pci 0000:00:07.0: [1af4:1002] type 00 class 0x00ff00
+Mar 30 19:44:35 Streamnow kernel: [    0.348663] pci 0000:00:07.0: reg 0x10: [io  0xc120-0xc13f]
+Mar 30 19:44:35 Streamnow kernel: [    0.352794] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Mar 30 19:44:35 Streamnow kernel: [    0.356617] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Mar 30 19:44:35 Streamnow kernel: [    0.358742] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Mar 30 19:44:35 Streamnow kernel: [    0.360557] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Mar 30 19:44:35 Streamnow kernel: [    0.362604] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Mar 30 19:44:35 Streamnow kernel: [    0.364682] ACPI: Enabled 16 GPEs in block 00 to 0F
+Mar 30 19:44:35 Streamnow kernel: [    0.366329] ACPI: \_SB_.PCI0: notify handler is installed
+Mar 30 19:44:35 Streamnow kernel: [    0.366351] Found 1 acpi root devices
+Mar 30 19:44:35 Streamnow kernel: [    0.366781] vgaarb: setting as boot device: PCI:0000:00:02.0
+Mar 30 19:44:35 Streamnow kernel: [    0.368000] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Mar 30 19:44:35 Streamnow kernel: [    0.368008] vgaarb: loaded
+Mar 30 19:44:35 Streamnow kernel: [    0.368890] vgaarb: bridge control possible 0000:00:02.0
+Mar 30 19:44:35 Streamnow kernel: [    0.371466] SCSI subsystem initialized
+Mar 30 19:44:35 Streamnow kernel: [    0.372269] libata version 3.00 loaded.
+Mar 30 19:44:35 Streamnow kernel: [    0.372319] ACPI: bus type USB registered
+Mar 30 19:44:35 Streamnow kernel: [    0.373636] usbcore: registered new interface driver usbfs
+Mar 30 19:44:35 Streamnow kernel: [    0.375376] usbcore: registered new interface driver hub
+Mar 30 19:44:35 Streamnow kernel: [    0.376069] usbcore: registered new device driver usb
+Mar 30 19:44:35 Streamnow kernel: [    0.377893] PCI: Using ACPI for IRQ routing
+Mar 30 19:44:35 Streamnow kernel: [    0.379224] PCI: pci_cache_line_size set to 64 bytes
+Mar 30 19:44:35 Streamnow kernel: [    0.379589] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.379597] e820: reserve RAM buffer [mem 0x7fff9000-0x7fffffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.379888] NetLabel: Initializing
+Mar 30 19:44:35 Streamnow kernel: [    0.380017] NetLabel:  domain hash size = 128
+Mar 30 19:44:35 Streamnow kernel: [    0.381404] NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 30 19:44:35 Streamnow kernel: [    0.382991] NetLabel:  unlabeled traffic allowed by default
+Mar 30 19:44:35 Streamnow kernel: [    0.384186] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Mar 30 19:44:35 Streamnow kernel: [    0.386499] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Mar 30 19:44:35 Streamnow kernel: [    0.388084] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Mar 30 19:44:35 Streamnow kernel: [    0.396196] Switched to clocksource kvm-clock
+Mar 30 19:44:35 Streamnow kernel: [    0.407525] AppArmor: AppArmor Filesystem Enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.409147] pnp: PnP ACPI init
+Mar 30 19:44:35 Streamnow kernel: [    0.410201] ACPI: bus type PNP registered
+Mar 30 19:44:35 Streamnow kernel: [    0.411820] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.411890] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.411931] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.411973] pnp 00:03: [dma 2]
+Mar 30 19:44:35 Streamnow kernel: [    0.411997] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.412103] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.412246] pnp 00:05: Plug and Play ACPI device, IDs PNP0103 (active)
+Mar 30 19:44:35 Streamnow kernel: [    0.412340] pnp: PnP ACPI: found 6 devices
+Mar 30 19:44:35 Streamnow kernel: [    0.413628] ACPI: bus type PNP unregistered
+Mar 30 19:44:35 Streamnow kernel: [    0.421037] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Mar 30 19:44:35 Streamnow kernel: [    0.421041] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.421043] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.421045] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff]
+Mar 30 19:44:35 Streamnow kernel: [    0.421122] NET: Registered protocol family 2
+Mar 30 19:44:35 Streamnow kernel: [    0.422955] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.425344] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.427599] TCP: Hash tables configured (established 16384 bind 16384)
+Mar 30 19:44:35 Streamnow kernel: [    0.429680] TCP: reno registered
+Mar 30 19:44:35 Streamnow kernel: [    0.430651] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.432503] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.434501] NET: Registered protocol family 1
+Mar 30 19:44:35 Streamnow kernel: [    0.435838] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar 30 19:44:35 Streamnow kernel: [    0.437606] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Mar 30 19:44:35 Streamnow kernel: [    0.439330] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar 30 19:44:35 Streamnow kernel: [    0.441461] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Mar 30 19:44:35 Streamnow kernel: [    0.443746] pci 0000:00:02.0: Video device with shadowed ROM
+Mar 30 19:44:35 Streamnow kernel: [    0.443815] PCI: CLS 0 bytes, default 64
+Mar 30 19:44:35 Streamnow kernel: [    0.443960] Trying to unpack rootfs image as initramfs...
+Mar 30 19:44:35 Streamnow kernel: [    0.594148] Freeing initrd memory: 7228K (ffff8800371d2000 - ffff8800378e1000)
+Mar 30 19:44:35 Streamnow kernel: [    0.597181] microcode: CPU0 sig=0x406f1, pf=0x1, revision=0x1
+Mar 30 19:44:35 Streamnow kernel: [    0.599465] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar 30 19:44:35 Streamnow kernel: [    0.602854] Scanning for low memory corruption every 60 seconds
+Mar 30 19:44:35 Streamnow kernel: [    0.605512] Initialise system trusted keyring
+Mar 30 19:44:35 Streamnow kernel: [    0.607321] audit: initializing netlink socket (disabled)
+Mar 30 19:44:35 Streamnow kernel: [    0.609496] type=2000 audit(1553975066.503:1): initialized
+Mar 30 19:44:35 Streamnow kernel: [    0.641321] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 30 19:44:35 Streamnow kernel: [    0.644937] zbud: loaded
+Mar 30 19:44:35 Streamnow kernel: [    0.646178] VFS: Disk quotas dquot_6.5.2
+Mar 30 19:44:35 Streamnow kernel: [    0.647722] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 30 19:44:35 Streamnow kernel: [    0.650604] fuse init (API version 7.22)
+Mar 30 19:44:35 Streamnow kernel: [    0.652170] msgmni has been set to 3998
+Mar 30 19:44:35 Streamnow kernel: [    0.653617] Key type big_key registered
+Mar 30 19:44:35 Streamnow kernel: [    0.655200] Key type asymmetric registered
+Mar 30 19:44:35 Streamnow kernel: [    0.656709] Asymmetric key parser 'x509' registered
+Mar 30 19:44:35 Streamnow kernel: [    0.658474] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar 30 19:44:35 Streamnow kernel: [    0.661329] io scheduler noop registered
+Mar 30 19:44:35 Streamnow kernel: [    0.662693] io scheduler deadline registered (default)
+Mar 30 19:44:35 Streamnow kernel: [    0.664536] io scheduler cfq registered
+Mar 30 19:44:35 Streamnow kernel: [    0.666026] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 30 19:44:35 Streamnow kernel: [    0.667978] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 30 19:44:35 Streamnow kernel: [    0.670361] intel_idle: does not run on family 6 model 79
+Mar 30 19:44:35 Streamnow kernel: [    0.670367] ipmi message handler version 39.2
+Mar 30 19:44:35 Streamnow kernel: [    0.672260] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 30 19:44:35 Streamnow kernel: [    0.675214] ACPI: Power Button [PWRF]
+Mar 30 19:44:35 Streamnow kernel: [    0.677008] GHES: HEST is not enabled!
+Mar 30 19:44:35 Streamnow kernel: [    0.679067] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Mar 30 19:44:35 Streamnow kernel: [    0.682229] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Mar 30 19:44:35 Streamnow kernel: [    0.684916] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 11
+Mar 30 19:44:35 Streamnow kernel: [    0.687835] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.715577] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Mar 30 19:44:35 Streamnow kernel: [    0.719215] Linux agpgart interface v0.103
+Mar 30 19:44:35 Streamnow kernel: [    0.721517] brd: module loaded
+Mar 30 19:44:35 Streamnow kernel: [    0.722908] loop: module loaded
+Mar 30 19:44:35 Streamnow kernel: [    0.724024] virtio-pci 0000:00:05.0: irq 40 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.724051] virtio-pci 0000:00:05.0: irq 41 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.724325] blk-mq: CPU -> queue map
+Mar 30 19:44:35 Streamnow kernel: [    0.725392]   CPU 0 -> Queue 0
+Mar 30 19:44:35 Streamnow kernel: [    0.729217]  vda: vda1 vda14 vda15
+Mar 30 19:44:35 Streamnow kernel: [    0.730655] virtio-pci 0000:00:06.0: irq 42 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.730694] virtio-pci 0000:00:06.0: irq 43 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.731024] blk-mq: CPU -> queue map
+Mar 30 19:44:35 Streamnow kernel: [    0.732229]   CPU 0 -> Queue 0
+Mar 30 19:44:35 Streamnow kernel: [    0.734031]  vdb: unknown partition table
+Mar 30 19:44:35 Streamnow kernel: [    0.735379] ata_piix 0000:00:01.1: version 2.13
+Mar 30 19:44:35 Streamnow kernel: [    0.735987] scsi0 : ata_piix
+Mar 30 19:44:35 Streamnow kernel: [    0.736942] scsi1 : ata_piix
+Mar 30 19:44:35 Streamnow kernel: [    0.737847] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc140 irq 14
+Mar 30 19:44:35 Streamnow kernel: [    0.739910] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc148 irq 15
+Mar 30 19:44:35 Streamnow kernel: [    0.742727] libphy: Fixed MDIO Bus: probed
+Mar 30 19:44:35 Streamnow kernel: [    0.744091] tun: Universal TUN/TAP device driver, 1.6
+Mar 30 19:44:35 Streamnow kernel: [    0.745488] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Mar 30 19:44:35 Streamnow kernel: [    0.747656] virtio-pci 0000:00:03.0: irq 44 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.747684] virtio-pci 0000:00:03.0: irq 45 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.747708] virtio-pci 0000:00:03.0: irq 46 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.748762] PPP generic driver version 2.4.2
+Mar 30 19:44:35 Streamnow kernel: [    0.749890] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 30 19:44:35 Streamnow kernel: [    0.751789] ehci-pci: EHCI PCI platform driver
+Mar 30 19:44:35 Streamnow kernel: [    0.752881] ehci-platform: EHCI generic platform driver
+Mar 30 19:44:35 Streamnow kernel: [    0.753996] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 30 19:44:35 Streamnow kernel: [    0.755353] ohci-pci: OHCI PCI platform driver
+Mar 30 19:44:35 Streamnow kernel: [    0.756603] ohci-platform: OHCI generic platform driver
+Mar 30 19:44:35 Streamnow kernel: [    0.758091] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 30 19:44:35 Streamnow kernel: [    0.760359] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Mar 30 19:44:35 Streamnow kernel: [    0.761886] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Mar 30 19:44:35 Streamnow kernel: [    0.764146] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c0c0
+Mar 30 19:44:35 Streamnow kernel: [    0.765929] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Mar 30 19:44:35 Streamnow kernel: [    0.767923] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 30 19:44:35 Streamnow kernel: [    0.770009] usb usb1: Product: UHCI Host Controller
+Mar 30 19:44:35 Streamnow kernel: [    0.771432] usb usb1: Manufacturer: Linux 3.13.0-163-generic uhci_hcd
+Mar 30 19:44:35 Streamnow kernel: [    0.773307] usb usb1: SerialNumber: 0000:00:01.2
+Mar 30 19:44:35 Streamnow kernel: [    0.774787] hub 1-0:1.0: USB hub found
+Mar 30 19:44:35 Streamnow kernel: [    0.775914] hub 1-0:1.0: 2 ports detected
+Mar 30 19:44:35 Streamnow kernel: [    0.777283] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Mar 30 19:44:35 Streamnow kernel: [    0.780775] serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar 30 19:44:35 Streamnow kernel: [    0.782298] serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar 30 19:44:35 Streamnow kernel: [    0.784058] mousedev: PS/2 mouse device common for all mice
+Mar 30 19:44:35 Streamnow kernel: [    0.786403] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Mar 30 19:44:35 Streamnow kernel: [    0.789081] rtc_cmos 00:00: RTC can wake from S4
+Mar 30 19:44:35 Streamnow kernel: [    0.791205] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Mar 30 19:44:35 Streamnow kernel: [    0.793392] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+Mar 30 19:44:35 Streamnow kernel: [    0.795517] device-mapper: uevent: version 1.0.3
+Mar 30 19:44:35 Streamnow kernel: [    0.796967] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+Mar 30 19:44:35 Streamnow kernel: [    0.799426] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 30 19:44:35 Streamnow kernel: [    0.801279] TCP: cubic registered
+Mar 30 19:44:35 Streamnow kernel: [    0.802320] NET: Registered protocol family 10
+Mar 30 19:44:35 Streamnow kernel: [    0.803900] NET: Registered protocol family 17
+Mar 30 19:44:35 Streamnow kernel: [    0.805341] Key type dns_resolver registered
+Mar 30 19:44:35 Streamnow kernel: [    0.806992] Loading compiled-in X.509 certificates
+Mar 30 19:44:35 Streamnow kernel: [    0.809544] Loaded X.509 cert 'Magrathea: Glacier signing key: 094079111c1fcc174da628d837dd46328f08651c'
+Mar 30 19:44:35 Streamnow kernel: [    0.812501] registered taskstats version 1
+Mar 30 19:44:35 Streamnow kernel: [    0.815811] Key type trusted registered
+Mar 30 19:44:35 Streamnow kernel: [    0.820171] Key type encrypted registered
+Mar 30 19:44:35 Streamnow kernel: [    0.821353] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 30 19:44:35 Streamnow kernel: [    0.822941] IMA: No TPM chip found, activating TPM-bypass!
+Mar 30 19:44:35 Streamnow kernel: [    0.824941] regulator-dummy: disabling
+Mar 30 19:44:35 Streamnow kernel: [    0.826055]   Magic number: 11:935:749
+Mar 30 19:44:35 Streamnow kernel: [    0.827185] tty ttyS0: hash matches
+Mar 30 19:44:35 Streamnow kernel: [    0.828407] rtc_cmos 00:00: setting system clock to 2019-03-30 19:44:27 UTC (1553975067)
+Mar 30 19:44:35 Streamnow kernel: [    0.830782] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Mar 30 19:44:35 Streamnow kernel: [    0.832547] EDD information not available.
+Mar 30 19:44:35 Streamnow kernel: [    0.833763] PM: Hibernation image not present or could not be loaded.
+Mar 30 19:44:35 Streamnow kernel: [    0.897879] Freeing unused kernel memory: 1376K (ffffffff81d24000 - ffffffff81e7c000)
+Mar 30 19:44:35 Streamnow kernel: [    0.899770] Write protecting the kernel read-only data: 12288k
+Mar 30 19:44:35 Streamnow kernel: [    0.901729] Freeing unused kernel memory: 672K (ffff880001758000 - ffff880001800000)
+Mar 30 19:44:35 Streamnow kernel: [    0.905171] Freeing unused kernel memory: 656K (ffff880001b5c000 - ffff880001c00000)
+Mar 30 19:44:35 Streamnow kernel: [    0.963576] virtio-pci 0000:00:04.0: irq 47 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.963601] virtio-pci 0000:00:04.0: irq 48 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.963625] virtio-pci 0000:00:04.0: irq 49 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.963652] virtio-pci 0000:00:04.0: irq 50 for MSI/MSI-X
+Mar 30 19:44:35 Streamnow kernel: [    0.964877] scsi2 : Virtio SCSI HBA
+Mar 30 19:44:35 Streamnow kernel: [    0.973028] FDC 0 is a S82078B
+Mar 30 19:44:35 Streamnow kernel: [    1.596180] tsc: Refined TSC clocksource calibration: 2199.993 MHz
+Mar 30 19:44:35 Streamnow kernel: [    2.021911] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Mar 30 19:44:35 Streamnow kernel: [    2.489295] EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 30 19:44:35 Streamnow kernel: [    2.593801] random: init urandom read with 15 bits of entropy available
+Mar 30 19:44:35 Streamnow kernel: [    2.829035] EXT4-fs (vda1): re-mounted. Opts: (null)
+Mar 30 19:44:35 Streamnow kernel: [    4.103050] ISO 9660 Extensions: RRIP_1991A
+Mar 30 19:44:35 Streamnow kernel: [    4.894988] type=1400 audit(1553975071.562:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=426 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    4.894995] type=1400 audit(1553975071.562:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=426 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    4.894999] type=1400 audit(1553975071.562:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=426 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    7.152832] ISO 9660 Extensions: RRIP_1991A
+Mar 30 19:44:35 Streamnow kernel: [    8.748804] type=1400 audit(1553975075.418:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=923 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    8.748812] type=1400 audit(1553975075.418:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=923 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    8.748816] type=1400 audit(1553975075.418:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=923 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    8.756000] type=1400 audit(1553975075.422:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=925 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    8.761697] type=1400 audit(1553975075.430:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=928 comm="apparmor_parser"
+Mar 30 19:44:35 Streamnow kernel: [    9.261265] type=1400 audit(1553975075.930:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/mysqld" pid=1039 comm="apparmor_parser"
+Mar 30 19:44:48 Streamnow kernel: [   22.144096] random: nonblocking pool is initialized
+Mar 30 19:49:56 Streamnow kernel: [  330.196849] perf samples too long (2543 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
+Mar 30 21:12:02 Streamnow kernel: [ 5255.334461] perf samples too long (5109 > 5000), lowering kernel.perf_event_max_sample_rate to 25000
+Mar 30 21:54:22 Streamnow kernel: [ 7795.682593] Bits 55-60 of /proc/PID/pagemap entries are about to stop being page-shift some time soon. See the linux/Documentation/vm/pagemap.txt for details.
+Mar 30 21:57:56 Streamnow kernel: [ 8009.413076] perf samples too long (10044 > 10000), lowering kernel.perf_event_max_sample_rate to 12500

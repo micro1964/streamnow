@@ -1,0 +1,11 @@
+dc0f5b4c0867262023a33bb762e76844  usr/share/doc/libxml-writer-perl/changelog.Debian.gz
+37cde973ab8e14bc78c32058dc2b936d  usr/share/doc/libxml-writer-perl/copyright
+304de8c261e7fe29d2083499967b72b0  usr/share/doc/libxml-writer-perl/examples/data-mode-sample.pl
+d350a869654106bc0a52678887d56e7f  usr/share/doc/libxml-writer-perl/examples/directory-as-atom.pl
+e32cbdc12ebbbc6c4d0251db11d53875  usr/share/doc/libxml-writer-perl/examples/double-escaping-example.pl
+99919363332040e5f62bc39aa711fe51  usr/share/doc/libxml-writer-perl/examples/namespace-prefixes.pl
+c092ef0a4de1ce46f5e46a09347b2a60  usr/share/doc/libxml-writer-perl/examples/simple-xml.pl
+858a80569f16c570636794effa0ff014  usr/share/doc/libxml-writer-perl/examples/writing-unicode.pl
+b64e7d95b4b02f50a3fd83d030dce8d8  usr/share/doc/libxml-writer-perl/examples/xml-writer-string.pl
+7c9835df32f66f13107964b4ae3dce8b  usr/share/man/man3/XML::Writer.3pm.gz
+effa04e20a34bbdfe8f21af4a60f8c34  usr/share/perl5/XML/Writer.pm

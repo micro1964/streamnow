@@ -1,0 +1,7 @@
+S:disk/by-label/config-2
+W:52
+I:8838
+E:ID_FS_LABEL=config-2
+E:ID_FS_LABEL_ENC=config-2
+E:ID_FS_TYPE=iso9660
+E:ID_FS_USAGE=filesystem

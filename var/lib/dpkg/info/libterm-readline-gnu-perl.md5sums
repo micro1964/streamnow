@@ -1,0 +1,13 @@
+e0ff34133e84642c827c802bc3091203  usr/lib/perl5/Term/ReadLine/Gnu.pm
+e81e52d3fbed9c068a18c2de9f43a87e  usr/lib/perl5/Term/ReadLine/Gnu/XS.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/Term/ReadLine/Gnu/Gnu.bs
+a0e1b2f81968516399bf3a4d4554be43  usr/lib/perl5/auto/Term/ReadLine/Gnu/Gnu.so
+52f9c2597a63f74db005b37690acda1b  usr/lib/perl5/auto/Term/ReadLine/Gnu/XS/autosplit.ix
+3a7a9831dab34f7e2c49ccacddfc9960  usr/share/doc/libterm-readline-gnu-perl/README.gz
+f89b843249008d037a9a705fa386a599  usr/share/doc/libterm-readline-gnu-perl/changelog.Debian.gz
+3da2665f954970cb1ea4d42239a2d4de  usr/share/doc/libterm-readline-gnu-perl/copyright
+041259d6c6bf69c700ab6ab8e77db2ab  usr/share/doc/libterm-readline-gnu-perl/examples/fileman.gz
+835f822bca1f9df2ce3f7902376aa70b  usr/share/doc/libterm-readline-gnu-perl/examples/perlsh.gz
+965cbce687b1eb9a25dc6e067d378593  usr/share/doc/libterm-readline-gnu-perl/examples/pftp.gz
+04d830726a3eaa86cf331b61253be767  usr/share/doc/libterm-readline-gnu-perl/examples/ptksh+
+50d4a10883f0c5bd1b76b0545cafa63b  usr/share/man/man3/Term::ReadLine::Gnu.3pm.gz

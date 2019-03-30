@@ -1,0 +1,6 @@
+0c759c4ab0a2e0ad3c1dbd3ba81d99d1  bin/efibootmgr
+8741e85a325ed6edec866a8f9e567965  usr/share/doc/efibootmgr/README.gz
+add8db42daff08cfb4bd02148a91d81c  usr/share/doc/efibootmgr/TODO
+90b414802e88fede512d98c92d41cf95  usr/share/doc/efibootmgr/changelog.Debian.gz
+a74e47a19f2de8273045abea578523f5  usr/share/doc/efibootmgr/copyright
+49d0125b40ee04d8401af57ef3dce1ec  usr/share/man/man8/efibootmgr.8.gz

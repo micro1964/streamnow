@@ -1,0 +1,10 @@
+e6b9169a9f9c82d1951d60482f195db1  usr/share/doc/libconfig-general-perl/README
+3c1ec4a7142de98cd6ab4ea58a4275cc  usr/share/doc/libconfig-general-perl/changelog.Debian.gz
+2083bf778a1d395c218b3903464e6b7b  usr/share/doc/libconfig-general-perl/copyright
+60884cfaca9503566b5356fcf71bbd0f  usr/share/doc/libconfig-general-perl/examples/example.cfg
+668bc5d92f23f2f4d51957e9d245f65f  usr/share/man/man3/Config::General.3pm.gz
+c600ff955baa80bd2b1b5ae055823a64  usr/share/man/man3/Config::General::Extended.3pm.gz
+e908ec5389e8393e96446db2d4f3d795  usr/share/man/man3/Config::General::Interpolated.3pm.gz
+eb63387f804e969b4036ee0702fe5f2f  usr/share/perl5/Config/General.pm
+8b7fe469af457be106860924dcf8ff63  usr/share/perl5/Config/General/Extended.pm
+986e21e417f3201efd684b13f2924c35  usr/share/perl5/Config/General/Interpolated.pm

@@ -1,0 +1,5 @@
+be21dc2b07e4e62bfbaefd00ed34382d  usr/share/doc/libmldbm-sync-perl/changelog.Debian.gz
+bc2308215b49081928d9c6242edc3813  usr/share/doc/libmldbm-sync-perl/copyright
+65570d9de1a8526504c1159276a067ef  usr/share/man/man3/MLDBM::Sync.3pm.gz
+27850d88a27c92c382c2a52f6ee83d2c  usr/share/perl5/MLDBM/Sync.pm
+c87dab67b07e94d6614afc1826f48cde  usr/share/perl5/MLDBM/Sync/SDBM_File.pm

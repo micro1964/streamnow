@@ -1,0 +1,6 @@
+{
+ "v1": {
+  "errors": [], 
+  "datasource": "DataSourceConfigDriveNet [net,ver=2][source=/dev/vdb]"
+ }
+}

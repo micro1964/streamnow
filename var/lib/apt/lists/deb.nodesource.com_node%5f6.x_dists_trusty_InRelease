@@ -1,0 +1,76 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Node Source
+Label: Node Source
+Codename: trusty
+Date: Wed, 26 Dec 2018 18:58:54 UTC
+Architectures: i386 amd64 armhf arm64
+Components: main
+Description: Apt Repository for the Node.JS 6.x Branch
+MD5Sum:
+ 6eae0c6508d5294bd154d98771fcf107 2307 main/binary-i386/Packages
+ 75eb358d6bc30e82ba58d17e653e0d5f 1006 main/binary-i386/Packages.gz
+ 560cf7d6cd8c9536b9baa543cd86dee7 129 main/binary-i386/Release
+ d1e43d6727689e347b22d642a6a65f3f 2311 main/binary-amd64/Packages
+ a4d5354c4cc655bd9183644bf093cd1a 1009 main/binary-amd64/Packages.gz
+ c0b1fcfbd178cf69f812e9409d1bbe3c 130 main/binary-amd64/Release
+ 8660bca4d0557fa6cadd9b17afedd606 2308 main/binary-armhf/Packages
+ c6e31027633a04787a2d32516816711a 1004 main/binary-armhf/Packages.gz
+ eaaecd36ed8f4a15c2aaa04c1d1a5d0b 130 main/binary-armhf/Release
+ 9d23559a69c30a98b65f783205ee327d 2311 main/binary-arm64/Packages
+ 8c208d5b76199b92fe015d7cd2cc40a1 1007 main/binary-arm64/Packages.gz
+ e3f4ed021f9dee036ac705b6460d0b46 130 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ c9e6f6f1a7e730fa6253798ff547ee28 131 main/source/Release
+SHA1:
+ 9d18eeff982c5b1294cb59e883ee7b6ae24594e4 2307 main/binary-i386/Packages
+ 13d2db85efdfd777b082870ace311cb674273bc0 1006 main/binary-i386/Packages.gz
+ 329d35c6a9ff6b4c2541bf068c19eb0d129abecd 129 main/binary-i386/Release
+ 7546b1c0aa7da3bb02a064de927b84900935fc74 2311 main/binary-amd64/Packages
+ 5dd837e4a2ce3de82e8e6c942e1add72789fc5cc 1009 main/binary-amd64/Packages.gz
+ c35f45ec84e2c4b02d250c35c61636ac91494111 130 main/binary-amd64/Release
+ e978023b6453ca01a7e689098aade3c8d27d0750 2308 main/binary-armhf/Packages
+ d0dbffba9bf1cd9d2fa0b0b88e78acb27a2f3b64 1004 main/binary-armhf/Packages.gz
+ 11a3f072f2fc18c719eebd0fcfcd3215ea4fd5a5 130 main/binary-armhf/Release
+ 3dbcc58fb1ad4b5c7336f57de888a98cf11e10da 2311 main/binary-arm64/Packages
+ b2a7821d27172653a38108d1cc72c34d3e33f6a3 1007 main/binary-arm64/Packages.gz
+ 7e0d830292f1dd908a4cc12c2ff5cdea45e489e0 130 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 294edfd9b1305b7de4f3139377e0a34eefdc1938 131 main/source/Release
+SHA256:
+ e7374d7558f82d1048fcaf9cd0310c0cc66bec0c7564282c1dc516abd5d03571 2307 main/binary-i386/Packages
+ f70b2543799e3619bcde8e17d29d377f4bf2c451b8f5a1c3625a8fa3e3e22c37 1006 main/binary-i386/Packages.gz
+ 01700a23459aa2902ee1a4af9434c0e50355fa21c65598a3057ac49aad1f830d 129 main/binary-i386/Release
+ c43f9a1de1868cdfc2ffe82040dee101a4d8657f2e7c9ab4aba63bb5eace5a37 2311 main/binary-amd64/Packages
+ 3edecabdaf25780dc233eecf724265012e39f427c460f92c61a66d9eb9d05af1 1009 main/binary-amd64/Packages.gz
+ 8631e12b1684424203cf7e9f797cfd335e7530e3824ac668fde85bc467b03310 130 main/binary-amd64/Release
+ 63ad3e34f84a1e7e8e4907070a40a2f2ad6e3bbcb40ea4cf531975ae015f6f2a 2308 main/binary-armhf/Packages
+ 2569df24da6eb04e5eedf7eba6e59cbaf90a724687a621691939a38141b422b2 1004 main/binary-armhf/Packages.gz
+ 0dc5d566c9b56f8e975119ddea8e5f65e899090f1c6d178b1f1604d2c06f63f9 130 main/binary-armhf/Release
+ 65be5e10a803e8a099647530c67794dd80e72513eed61bed3722b3306157b080 2311 main/binary-arm64/Packages
+ 2f86069af876b1e0fb29a57d7d034f2c46d8dd42d6dd5495a9f09453332256d1 1007 main/binary-arm64/Packages.gz
+ 2e91970c4bd3edd3e45113df0cba1bf2472deeba66703eced89b0af601d2088a 130 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 4029f4a3160a4eed6a3c7c3c6ef507316bd4337b1af759a29d4c9fdd98b05153 131 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+Comment: GPGTools - https://gpgtools.org
+
+iQIcBAEBCgAGBQJcI89vAAoJEBZVoKtoV2KADCAQANo7NjXbswmldaZLe2scZRks
+OxCG9twItSw/1eSB1nnlmMEZ7gHzwggWFTnZw8X1/vUSBydHJoNwOFs8+KKBoCgR
+Css9LlJyEwgf1JiWCRRVPGeZYwUOORNY+SQ1zSdnqeBphu16JluNoqbg02wT/EMf
+I8WmO/x2+AhTLjYNhsczHOWrcqkAizZ1/c6p3SFfJqaTdDl5t4IkmX9pEbQaLZ0j
+NSMlup+3/4+RGO3QZIDAmQqqImiAAdUHwC4uGMUQTfHQTEYbS/pMYY+lX/49W7Yx
+yvd50sh663XiVFt8YyxNZZZBCF9PphsoDHbZq8xA4PRel1fr3UJhzrs5qyX3/6wI
+2RTSfgjchCeJnOlavqnzwAFoQMAJzN8iQuVj9NmC6QKDAhmQq4jZTQh1FmJtAt8v
+7s7dNyxEp7bVSfa8+oDMfVFBM0Fx+h2y/QFJZbxcl6rxR4tuFMglV8nY2Uxku/MF
+XFotG6zGTBoziV0rHe4GUF1io+WK1q8mRxLoorv+QCpZZxHqBJtA/KuxYiDsfVkW
+PCvGrA+i6EnqSTei51d3njQjCB/t0SAS/QOicq4tvn5vZ/VhgWdbPOvJ2ObkHMML
+2BWA+LbRjM8ErXiqsYxpADirrVP8FiRKUd+3MBy2dgyUFeRwoRBizXIhiH5DgOQO
+NXE9KYnzV4MP7Tyw3xO+
+=FfaT
+-----END PGP SIGNATURE-----

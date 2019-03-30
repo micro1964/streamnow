@@ -1,0 +1,6 @@
+6e94c3d33194c89bd327bfaa5871e294  usr/lib/shim/shimx64.efi.signed
+34c822d627ac923ff4d0a8438f28ca88  usr/sbin/update-secureboot-policy
+ab436840376e4e53c483df510de79e7f  usr/share/apport/package-hooks/source_shim-signed.py
+68e44832e7f604caf1a3eeda4ef3a244  usr/share/doc/shim-signed/changelog.Debian.gz
+b5de19f59f1377fb968d1dcd3ea25426  usr/share/doc/shim-signed/copyright
+ab01ae221a0af71d878f0909f1317f0f  usr/share/lintian/overrides/shim-signed

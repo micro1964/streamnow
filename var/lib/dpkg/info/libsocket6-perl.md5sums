@@ -1,0 +1,8 @@
+6d601f4a444b66302bd24cf25dd7ef83  usr/lib/perl5/Socket6.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/Socket6/Socket6.bs
+3b25d64d996d1a1df25215ecc1801542  usr/lib/perl5/auto/Socket6/Socket6.so
+f6b0a216df0e35c65f8117c9df3c2cd2  usr/share/doc/libsocket6-perl/changelog.Debian.gz
+fc762fb71622d4b0c29ae60e3d483c38  usr/share/doc/libsocket6-perl/copyright
+6b9376c3ffab54017ad3465ec770309a  usr/share/doc/libsocket6-perl/examples/ftpmirror-1.96.diff.gz
+d3ba778acc6fd5e79afef3ce6f436f33  usr/share/doc/libsocket6-perl/examples/im-140.diff.gz
+8ddf1bd5f1abb6c332eca50d7d787bd9  usr/share/man/man3/Socket6.3pm.gz

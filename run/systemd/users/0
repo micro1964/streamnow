@@ -1,0 +1,11 @@
+# This is private data. Do not parse.
+NAME=root
+STATE=active
+CGROUP=/user/0.user
+RUNTIME=/run/user/0
+SESSIONS=c2
+SEATS=seat0
+ACTIVE_SESSIONS=c2
+ONLINE_SESSIONS=c2
+ACTIVE_SEATS=seat0
+ONLINE_SEATS=seat0

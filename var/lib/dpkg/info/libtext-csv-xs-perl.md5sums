@@ -1,0 +1,12 @@
+25c50bc52fe5b1ea5948f8a5b4c7b63f  usr/lib/perl5/Text/CSV_XS.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/Text/CSV_XS/CSV_XS.bs
+d020bc3ed77f0a84f827e929ebd591f8  usr/lib/perl5/auto/Text/CSV_XS/CSV_XS.so
+c739d17c430caa6956682a55d29f8790  usr/share/doc/libtext-csv-xs-perl/README.Debian
+bfc46330dc58401b8718c83b922757c9  usr/share/doc/libtext-csv-xs-perl/changelog.Debian.gz
+a0cc5db415781a352ae8ce56714aa55b  usr/share/doc/libtext-csv-xs-perl/copyright
+62c4faf3a08fa96e24ccdf295c34a2bf  usr/share/doc/libtext-csv-xs-perl/examples/csv-check
+c049a00734508a392db86c5e87f4519b  usr/share/doc/libtext-csv-xs-perl/examples/csv2xls.gz
+977993affbf2bc070b8061796e9aa677  usr/share/doc/libtext-csv-xs-perl/examples/csvdiff
+df7d1491fbde5637e7ac80088a3fa5d6  usr/share/doc/libtext-csv-xs-perl/examples/parser-xs.pl
+c56fd627b422f3cf61bbcfa72a8ed36f  usr/share/doc/libtext-csv-xs-perl/examples/speed.pl
+0f009d95fd44d8a395f2f41f3b88f1ff  usr/share/man/man3/Text::CSV_XS.3pm.gz

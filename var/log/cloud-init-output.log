@@ -1,0 +1,117 @@
+Cloud-init v. 0.7.5 running 'init-local' at Wed, 23 Jan 2019 10:27:17 +0000. Up 6.78 seconds.
+2019-01-23 10:27:18,214 - util.py[WARNING]: Running interface command ['ifup', '--all'] failed
+Cloud-init v. 0.7.5 running 'init' at Wed, 23 Jan 2019 10:27:21 +0000. Up 10.13 seconds.
+ci-info: ++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: | Device |  Up  |   Address    |      Mask     |     Hw-Address    |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: |   lo   | True |  127.0.0.1   |   255.0.0.0   |         .         |
+ci-info: | eth0:1 | True |  10.10.0.7   |  255.255.0.0  | be:54:a0:29:cf:fc |
+ci-info: |  eth0  | True | 157.230.91.0 | 255.255.240.0 | be:54:a0:29:cf:fc |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++++Route info+++++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 157.230.80.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |  10.10.0.0   |   0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 157.230.80.0 |   0.0.0.0    | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+dmesg: write failed: Broken pipe
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+44:ad:45:f5:5c:68:34:dc:22:c6:34:f6:e9:66:4c:c9 root@Streamnow
+The key's randomart image is:
++--[ RSA 2048]----+
+|        .o.+=ooo.|
+|       .  o.+*==.|
+|        .o . oE. |
+|       ..    +   |
+|        S     =  |
+|             o   |
+|                 |
+|                 |
+|                 |
++-----------------+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+32:b0:68:18:f9:21:0f:8d:d9:1a:df:17:fa:9f:c7:48 root@Streamnow
+The key's randomart image is:
++--[ DSA 1024]----+
+|                 |
+| *               |
+|O + . .          |
+| @ + + .         |
+|o * + + S        |
+| .   o oE        |
+|      .. o       |
+|       ...o      |
+|        o.       |
++-----------------+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+e9:91:c5:ca:ff:07:35:dc:89:c4:c3:b2:74:41:43:1e root@Streamnow
+The key's randomart image is:
++--[ECDSA  256]---+
+|            =E.  |
+|         . o.*o  |
+|          + =oo..|
+|       . = . .+..|
+|        S    . . |
+|       . o  .    |
+|        . .  .   |
+|           .  .  |
+|            ..   |
++-----------------+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+9c:66:c0:4b:d2:72:6a:66:57:f2:50:b3:bd:75:d8:4a root@Streamnow
+The key's randomart image is:
++--[ED25519  256--+
+|        o        |
+|     o . +   o   |
+|    o O o . E o  |
+|     * O . + o   |
+|    = o S . .    |
+|   + . o         |
+|                 |
+|                 |
+|                 |
++-----------------+
+Cloud-init v. 0.7.5 running 'modules:config' at Wed, 23 Jan 2019 10:27:28 +0000. Up 17.20 seconds.
+Generating locales...
+  en_US.UTF-8... up-to-date
+Generation complete.
+Cloud-init v. 0.7.5 running 'modules:final' at Wed, 23 Jan 2019 10:27:29 +0000. Up 18.89 seconds.
+stat: cannot stat '/etc/machine-id': No such file or directory
+expr: syntax error
+Cloud-init v. 0.7.5 finished at Wed, 23 Jan 2019 10:27:30 +0000. Datasource DataSourceConfigDriveNet [net,ver=2][source=/dev/vdb].  Up 19.12 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Sat, 30 Mar 2019 19:44:30 +0000. Up 3.77 seconds.
+Cloud-init v. 0.7.5 running 'init' at Sat, 30 Mar 2019 19:44:33 +0000. Up 6.70 seconds.
+ci-info: ++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: | Device |  Up  |   Address    |      Mask     |     Hw-Address    |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: |   lo   | True |  127.0.0.1   |   255.0.0.0   |         .         |
+ci-info: | eth0:1 | True |  10.10.0.7   |  255.255.0.0  | be:54:a0:29:cf:fc |
+ci-info: |  eth0  | True | 157.230.91.0 | 255.255.240.0 | be:54:a0:29:cf:fc |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++++Route info+++++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 157.230.80.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |  10.10.0.0   |   0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 157.230.80.0 |   0.0.0.0    | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Cloud-init v. 0.7.5 running 'modules:config' at Sat, 30 Mar 2019 19:44:36 +0000. Up 9.37 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Sat, 30 Mar 2019 19:44:38 +0000. Up 11.68 seconds.
+Cloud-init v. 0.7.5 finished at Sat, 30 Mar 2019 19:44:38 +0000. Datasource DataSourceConfigDriveNet [net,ver=2][source=/dev/vdb].  Up 11.79 seconds

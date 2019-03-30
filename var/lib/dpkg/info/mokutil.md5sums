@@ -1,0 +1,5 @@
+d2c630fdf48676cb138ef8008ff23637  usr/bin/mokutil
+9086049384eaf0360dca4371ca50acbf  usr/share/bash-completion/completions/mokutil
+a1a010333c797f917e9af51ab70495a7  usr/share/doc/mokutil/changelog.Debian.gz
+24dd593b630976a785b4c5ed097bbd96  usr/share/doc/mokutil/copyright
+b608675058a943d834129b6972b8509a  usr/share/man/man1/mokutil.1.gz

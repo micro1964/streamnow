@@ -1,0 +1,17 @@
+700f94069e62ec01ceed7dc2c38f1e4a  usr/share/doc/libclass-trait-perl/README
+908f6ef4c3ed95ba6669fe65438d471c  usr/share/doc/libclass-trait-perl/changelog.Debian.gz
+3fd66c2d7b2167620cc199837eb77ded  usr/share/doc/libclass-trait-perl/copyright
+5b43ab41e5b0c994566fd62195e93368  usr/share/man/man3/Class::Trait.3pm.gz
+5a6540cefdf425838bf1882ee68d883c  usr/share/man/man3/Class::Trait::Base.3pm.gz
+3b8064e2fdcade275677b5f8367f921e  usr/share/man/man3/Class::Trait::Config.3pm.gz
+35bca44dae5d8b67767eb3a576f1a17d  usr/share/man/man3/Class::Trait::Lib::TComparable.3pm.gz
+35f8e96bf374ba6d4fb56227d3974756  usr/share/man/man3/Class::Trait::Lib::TEquality.3pm.gz
+a3e5225415a84c30f9a31e2b9c2c206b  usr/share/man/man3/Class::Trait::Lib::TPrintable.3pm.gz
+d33e78f763326cfd2fce448d46e5bcc6  usr/share/man/man3/Class::Trait::Reflection.3pm.gz
+14563ab39badb71e8a93a72947ddc1d6  usr/share/perl5/Class/Trait.pm
+6939f89a66c8837d488b087a37ef319f  usr/share/perl5/Class/Trait/Base.pm
+8238219ad42bd1ad3613ebb9085df080  usr/share/perl5/Class/Trait/Config.pm
+ff11fb2937f494181e4b8f426cd0ac3c  usr/share/perl5/Class/Trait/Lib/TComparable.pm
+93fded20282dd6a7a8aec55b203e2542  usr/share/perl5/Class/Trait/Lib/TEquality.pm
+b1db9ff9f516b9c5b5f6cdc1e985d55b  usr/share/perl5/Class/Trait/Lib/TPrintable.pm
+bd0d93455f00dcb4125ee68d9b3ce8ab  usr/share/perl5/Class/Trait/Reflection.pm

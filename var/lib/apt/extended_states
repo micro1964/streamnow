@@ -1,0 +1,592 @@
+Package: linux-headers-3.13.0-163
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-3.13.0-163-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfreetype6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-virtual
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-3.13.0-163-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-pc-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libefivar0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-efi-amd64-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: secureboot-db
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mokutil
+Architecture: amd64
+Auto-Installed: 1
+
+Package: efibootmgr
+Architecture: amd64
+Auto-Installed: 1
+
+Package: sbsigntool
+Architecture: amd64
+Auto-Installed: 1
+
+Package: shim
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ssl-cert
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-server-core-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-server-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaio1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-client-core-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-client-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libterm-readkey-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmysqlclient18
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-json
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbd-mysql-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-readline
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmcrypt4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-cli
+Architecture: amd64
+Auto-Installed: 0
+
+Package: libjs-jquery-mousewheel
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjpeg-turbo8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-metadata
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-cookie
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfontconfig1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtiff5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-event-drag
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbconfig-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libvpx1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fontconfig-config
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgd3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-ui
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-underscore
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-tablesorter
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php-gettext
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjbig0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-codemirror
+Architecture: amd64
+Auto-Installed: 1
+
+Package: javascript-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-gd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-dejavu-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxpm4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjpeg8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git-man
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libparse-yapp-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libio-socket-ssl-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-message-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblwp-mediatypes-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-cookies-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-form-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnet-smtp-ssl-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtext-csv-xs-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblwp-protocol-https-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libclass-trait-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnet-ssleay-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtie-cache-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libauthen-sasl-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmldbm-sync-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-namespacesupport-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-daemon-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-sax-base-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmldbm-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblog-log4perl-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmailtools-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-format-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libberkeleydb-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libterm-readline-gnu-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libconfig-general-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libio-html-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfreezethaw-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnet-http-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-parser-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-libxml-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-sax-expat-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwww-robotrules-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liburi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwww-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-date-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libyaml-syck-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfile-listing-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libencode-locale-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libregexp-common-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfont-afm-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libio-socket-inet6-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-writer-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsocket6-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libparse-recdescent-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtest-deep-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtext-csv-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-tagset-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-tree-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-sax-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-parser-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttp-negotiate-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fakeroot
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libstdc++-4.8-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libisl10
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasan0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libquadmath0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpc3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: make
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfile-fcntllock-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: cpp-4.8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgomp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libalgorithm-diff-xs-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtsan0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dpkg-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libalgorithm-merge-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libc-dev-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: g++
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libatomic1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libalgorithm-diff-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpfr4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: g++-4.8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: binutils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gcc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgmp10
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgcc-4.8-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdpkg-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: cpp
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfakeroot
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gcc-4.8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcloog-isl4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: manpages-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-libc-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libitm1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libc6-dev
+Architecture: amd64
+Auto-Installed: 1
+

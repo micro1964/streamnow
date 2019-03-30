@@ -1,0 +1,448 @@
+Package: flashplugin-nonfree
+Format: 1.0
+Binary: flashplugin-installer, flashplugin-downloader
+Architecture: i386 amd64
+Version: 32.0.0.156ubuntu0.14.04.1
+Priority: optional
+Section: multiverse/web
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 9)
+Homepage: http://www.adobe.com/products/flashplayer.html
+Directory: pool/multiverse/f/flashplugin-nonfree
+Package-List:
+ flashplugin-downloader deb contrib/web optional arch=i386
+ flashplugin-installer deb contrib/web optional arch=i386,amd64
+Files:
+ 5ab49ce20ffce7c3ed6d14a3b6f07a9b 1461 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.dsc
+ 1095b58975d35ec5152f06f33cf33ad9 30639 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.tar.gz
+Checksums-Sha1:
+ aeb018e2dfa963789d2eac5ad718d0ef7174e6a7 1461 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.dsc
+ 538b8d3af889c92bb86e1357c43f37f6939ab019 30639 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.tar.gz
+Checksums-Sha256:
+ d097fbeded9893aea244aec9bc14d2bd86bddb271846b54aa402cdabf3086a40 1461 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.dsc
+ 37016909e193d57a2688eb836f045edc9626b89a15b3b7497fd5b5bde1040805 30639 flashplugin-nonfree_32.0.0.156ubuntu0.14.04.1.tar.gz
+
+Package: libclamunrar
+Format: 3.0 (quilt)
+Binary: libclamunrar7
+Architecture: any
+Version: 0.100.1-1~ubuntu0.14.04.1
+Priority: extra
+Section: multiverse/libs
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Tautschnig <mt@debian.org>, Stephen Gran <sgran@debian.org>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), zlib1g-dev, libbz2-dev, libssl-dev, pkg-config
+Homepage: https://www.clamav.net/
+Vcs-Browser: https://salsa.debian.org/clamav-team/libclamunrar
+Vcs-Git: https://salsa.debian.org/clamav-team/libclamunrar.git -b unstable
+Directory: pool/multiverse/libc/libclamunrar
+Package-List:
+ libclamunrar7 deb non-free/libs optional
+Files:
+ 104241c7af63b259c6c121989dfd60ce 2248 libclamunrar_0.100.1-1~ubuntu0.14.04.1.dsc
+ 06d822da7279e40b055be79d8f26d6f1 330052 libclamunrar_0.100.1.orig.tar.xz
+ 12c4c762606068a91210f83394e5c5fb 6906 libclamunrar_0.100.1-1~ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha1:
+ c102363b20aaaf1dc71e3d5cf3545f8b36dcd6f6 2248 libclamunrar_0.100.1-1~ubuntu0.14.04.1.dsc
+ 9806b0872b1d0d7491c8ba83c7997f69ce60bdb6 330052 libclamunrar_0.100.1.orig.tar.xz
+ 1070750af14bfc638296fb32e79003b90c24f2f8 6906 libclamunrar_0.100.1-1~ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha256:
+ 8c1af87b7c618664490f974537cd75a2d2a038e6d14a3aeb77461815cffac1cc 2248 libclamunrar_0.100.1-1~ubuntu0.14.04.1.dsc
+ 284af789bd537a08f0120f2637bc4d08ee8d30f2a94a2d3a82576d48857e50e3 330052 libclamunrar_0.100.1.orig.tar.xz
+ c594db4f8625cec18005454fec497c55b140b587b97012aa118f4ed15eb40022 6906 libclamunrar_0.100.1-1~ubuntu0.14.04.1.debian.tar.gz
+Autobuild: yes
+
+Package: linux-firmware-nonfree
+Format: 3.0 (native)
+Binary: linux-firmware-nonfree
+Architecture: all
+Version: 1.14ubuntu3
+Priority: optional
+Section: multiverse/kernel
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7), dh-modaliases, python3, linux-image-generic
+Directory: pool/multiverse/l/linux-firmware-nonfree
+Package-List:
+ linux-firmware-nonfree deb kernel optional
+Files:
+ a0f7725411c70e74c181f0c94ac990d5 1567 linux-firmware-nonfree_1.14ubuntu3.dsc
+ 0a3c9a0482ebf9d84f58cc8c3b4d8048 3581544 linux-firmware-nonfree_1.14ubuntu3.tar.gz
+Checksums-Sha1:
+ 68325ba6599395c8520f341f0d945bdb2c0aaea7 1567 linux-firmware-nonfree_1.14ubuntu3.dsc
+ 3a363212f06e84c3a02aacb0fecbe9e35b24ef14 3581544 linux-firmware-nonfree_1.14ubuntu3.tar.gz
+Checksums-Sha256:
+ ad1e41d55831f6d9e458c4e6721756c6529d65bb9395ade44c8bac38d1d5a1af 1567 linux-firmware-nonfree_1.14ubuntu3.dsc
+ 944d1ff2a47dd3aab2d17ba57f8252a188967ebd1cbe80037ebefbef63e3f0da 3581544 linux-firmware-nonfree_1.14ubuntu3.tar.gz
+
+Package: mythtv
+Format: 3.0 (quilt)
+Binary: mythtv, mythtv-common, mythtv-doc, mythtv-database, mythtv-backend, mythtv-transcode-utils, mythtv-frontend, libmyth-0.27-0, libmyth-dev, php-mythtv, libmythtv-perl, libmyth-python, mythtv-backend-master, mythtv-dbg, mythplugins, mythgallery, mythgame, mythmusic, mythnews, mythweather, mythweb, mytharchive, mythzoneminder, mythbrowser, mythnetvision, mythtv-theme-mythbuntu
+Architecture: any all
+Version: 2:0.27.0+fixes.20140324.8ee257c-0ubuntu3
+Priority: optional
+Section: multiverse/graphics
+Maintainer: MythTV Ubuntu Maintainers <ubuntu-mythtv@lists.ubuntu.com>
+Uploaders: Mario Limonciello <superm1@ubuntu.com>, Andres Mejia <amejia@debian.org>,
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.0.50~), quilt, ccache, yasm, libqt4-dev, libqtwebkit-dev | libqt4-webkit-dev | libqt4-dev (<< 4:4.7.0~beta1), libqt4-opengl-dev, libdvb-dev, po-debconf, texi2html, dh-python | python-central, linux-kernel-headers, libdvdnav-dev, libfreetype6-dev, libavc1394-dev, libiec61883-dev, liblircclient-dev, libxinerama-dev | xlibs-static-dev (<< 6.8.1-1), libxxf86vm-dev | xlibs-static-dev (<< 6.8.1-1), libcrystalhd-dev [i386 amd64], libxvmc-dev | xlibs-static-dev (<< 6.8.1-1), libxext-dev | xlibs-static-dev (<< 6.8.1-1), libimlib2-dev, libasound2-dev, libmp3lame-dev | liblame-dev, libvorbis-dev, libdts-dev, lsb-release, libpulse-dev, libxrandr-dev, libfftw3-dev, libva-dev, libvdpau-dev [i386 amd64 armel] | nvidia-190-libvdpau-dev [i386 amd64] | nvidia-185-libvdpau-dev [i386 amd64] | nvidia-180-libvdpau-dev [i386 amd64], libudev-dev, libclass-dbi-perl, libnet-upnp-perl, libio-socket-inet6-perl, libdbd-mysql-perl, libjson-perl, libwww-perl, python-oauth, python-lxml, python-mysqldb, python-pycurl, python-urlgrabber, libgl1-mesa-dev | xlibmesa-gl-dev | xlibmesa-dev | libgl-dev, libdvdread-dev | libdvdread3-dev, fftw-dev, libflac-dev, libmad0-dev, libcdaudio-dev, libcdio-dev, libcdparanoia-dev | libcdparanoia0-dev, libsdl1.2-dev, libfaad-dev | libfaad2-dev, libexif-dev (>= 0.6.9-6), libtiff5-dev | libtiff4-dev | libtiff-dev, libxv-dev, libtag1-dev, libvisual-0.4-dev, libmysqlclient-dev, libdate-manip-perl, libxml-simple-perl, libimage-size-perl, libdatetime-format-iso8601-perl, libsoap-lite-perl, libx264-dev, libvpx-dev, libavahi-compat-libdnssd-dev, libssl-dev, libcdio-cdda-dev, libcdio-paranoia-dev, libxml2-dev, libass-dev, libcec-dev, uuid-dev, libxml-xpath-perl
+Build-Conflicts: libqt3-mt-dev
+Homepage: http://www.mythtv.org
+Vcs-Git: git://github.com/MythTV/packaging.git
+Directory: pool/multiverse/m/mythtv
+Package-List:
+ libmyth-0.27-0 deb libs optional
+ libmyth-dev deb libdevel optional
+ libmyth-python deb libs optional
+ libmythtv-perl deb perl optional
+ mytharchive deb graphics optional
+ mythbrowser deb graphics optional
+ mythgallery deb graphics optional
+ mythgame deb graphics optional
+ mythmusic deb graphics optional
+ mythnetvision deb graphics optional
+ mythnews deb graphics optional
+ mythplugins deb graphics optional
+ mythtv deb graphics optional
+ mythtv-backend deb graphics optional
+ mythtv-backend-master deb metapackages optional
+ mythtv-common deb graphics optional
+ mythtv-database deb graphics optional
+ mythtv-dbg deb debug extra
+ mythtv-doc deb doc optional
+ mythtv-frontend deb graphics optional
+ mythtv-theme-mythbuntu deb graphics optional
+ mythtv-transcode-utils deb graphics optional
+ mythweather deb graphics optional
+ mythweb deb graphics optional
+ mythzoneminder deb graphics optional
+ php-mythtv deb graphics optional
+Files:
+ 32d15981738138a56b12df8742130fc9 4373 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.dsc
+ 89342c0534ec3ced1c2bf406c041a27f 110353767 mythtv_0.27.0+fixes.20140324.8ee257c.orig.tar.gz
+ 64d32e5d678d35485d7b1d8082e821c4 288827 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.debian.tar.gz
+Checksums-Sha1:
+ 2bb492339974bf905d3acd65e61b48ef4ce35a57 4373 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.dsc
+ ad3bd2a6524afa3ff13ec30d611079cc7a52b8e6 110353767 mythtv_0.27.0+fixes.20140324.8ee257c.orig.tar.gz
+ fbe80887b0ad0d868b9bce2d807ffbd39d55b9ec 288827 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.debian.tar.gz
+Checksums-Sha256:
+ a4f5e36d62b01716940bb60c31032133c684331e42ba48dbbfac9590c8890560 4373 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.dsc
+ 68b816ec7c42762aa53b8ca9d34f3ea040d701f4bfb4a94b14c998a23176a400 110353767 mythtv_0.27.0+fixes.20140324.8ee257c.orig.tar.gz
+ c23ccaa73147173ef39ae350acdccdce82214d2a31c5839ce44af401d7b537ae 288827 mythtv_0.27.0+fixes.20140324.8ee257c-0ubuntu3.debian.tar.gz
+
+Package: pepperflashplugin-nonfree
+Format: 3.0 (native)
+Binary: pepperflashplugin-nonfree
+Architecture: i386 amd64
+Version: 1.3ubuntu1.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@debian.org>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9)
+Homepage: http://wiki.debian.org/PepperFlashPlayer
+Directory: pool/multiverse/p/pepperflashplugin-nonfree
+Package-List:
+ pepperflashplugin-nonfree deb contrib/web optional arch=i386,amd64
+Files:
+ 32b76557bd0d5315f272d7d27c407e24 1306 pepperflashplugin-nonfree_1.3ubuntu1.1.dsc
+ fe728683a4f4a1e83cb9c3745b78fe61 8736 pepperflashplugin-nonfree_1.3ubuntu1.1.tar.xz
+Checksums-Sha1:
+ d224a2e65b86096076f6f6f494aca58c51e8b7e0 1306 pepperflashplugin-nonfree_1.3ubuntu1.1.dsc
+ dfa56c83416b1fe8e8596259f5b25044a64f3bf5 8736 pepperflashplugin-nonfree_1.3ubuntu1.1.tar.xz
+Checksums-Sha256:
+ 4f4aa61d5aac95436b6e34b4abf2339a390d021b8bb2bf569ebf63b262626ef1 1306 pepperflashplugin-nonfree_1.3ubuntu1.1.dsc
+ 4d047ad8004ce6058765da5a170b35804c720f55195e2f1a8473f00c75ba57af 8736 pepperflashplugin-nonfree_1.3ubuntu1.1.tar.xz
+
+Package: steam
+Format: 3.0 (quilt)
+Binary: steam
+Architecture: i386
+Version: 1:1.0.0.45-1ubuntu1.2
+Priority: extra
+Section: multiverse/games
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Michael Gilbert <mgilbert@debian.org>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), libxcb1, libxau6, libx11-6, libxdmcp6, python-dev
+Homepage: http://www.steampowered.com
+Directory: pool/multiverse/s/steam
+Package-List:
+ steam deb non-free/games extra arch=i386
+Files:
+ 1d029e2253baaa56d575ea01e5e93448 1913 steam_1.0.0.45-1ubuntu1.2.dsc
+ 0f7e4ec82508614050d7b954d89b0924 969216 steam_1.0.0.45.orig.tar.xz
+ 3b9c7b1689146d75b7c045caf4827b0c 8800 steam_1.0.0.45-1ubuntu1.2.debian.tar.xz
+Checksums-Sha1:
+ 70c37a3a9ef5499af0f978aa58f05f05b0cc5ddd 1913 steam_1.0.0.45-1ubuntu1.2.dsc
+ 476a95dc8cea0ae445f59f021329d0bc29cc46cd 969216 steam_1.0.0.45.orig.tar.xz
+ 94c7306944fe65c7e83a12bf8206a36cfbfd5067 8800 steam_1.0.0.45-1ubuntu1.2.debian.tar.xz
+Checksums-Sha256:
+ 6e7e9a6b6543735183c48f24bacdaeb62fb0fa8aec696cb76c771687a9e8d4d3 1913 steam_1.0.0.45-1ubuntu1.2.dsc
+ d916437082f09acf8e24464c1478cacea2c7cbdfc829cd27e1dd6ba0d74cd44c 969216 steam_1.0.0.45.orig.tar.xz
+ ff21c01287affa7db5e17410979b63505ab2518ca840bdf7e61905cc456eb8e5 8800 steam_1.0.0.45-1ubuntu1.2.debian.tar.xz
+
+Package: ubuntu-restricted-extras
+Format: 3.0 (native)
+Binary: ubuntu-restricted-extras, kubuntu-restricted-extras, xubuntu-restricted-extras, lubuntu-restricted-extras
+Architecture: any all
+Version: 60.1
+Priority: optional
+Section: multiverse/metapackages
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Directory: pool/multiverse/u/ubuntu-restricted-extras
+Package-List:
+ kubuntu-restricted-extras deb metapackages optional arch=any
+ lubuntu-restricted-extras deb oldlibs extra arch=all
+ ubuntu-restricted-extras deb metapackages optional arch=any
+ xubuntu-restricted-extras deb metapackages optional arch=any
+Files:
+ 413378aad6f3c3ad60b8756c40d1cf44 1762 ubuntu-restricted-extras_60.1.dsc
+ 0911923ad7147a7189301e3eb1eb30a7 6272 ubuntu-restricted-extras_60.1.tar.xz
+Checksums-Sha1:
+ dcd4fcebf67ebc67301dbeb231ad2ab87846ddea 1762 ubuntu-restricted-extras_60.1.dsc
+ cc1f598dc6e70bfb09602a45937fefbdf868cbd8 6272 ubuntu-restricted-extras_60.1.tar.xz
+Checksums-Sha256:
+ 9f30928021a24c68e5fbeb016ee3de330abeba092e5efece8afb85b4b8ee6e3e 1762 ubuntu-restricted-extras_60.1.dsc
+ 70e5e4f0efa61f6eeafad69fed999cd8aba34910b29ba25485c6e134301b4bb7 6272 ubuntu-restricted-extras_60.1.tar.xz
+
+Package: unrar-nonfree
+Format: 3.0 (quilt)
+Binary: unrar
+Architecture: any
+Version: 1:5.0.10-1ubuntu0.14.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Martin Meredith <mez@debian.org>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~)
+Homepage: http://www.rarlabs.com/
+Directory: pool/multiverse/u/unrar-nonfree
+Package-List:
+ unrar deb non-free/utils optional
+Files:
+ d27335454be0e4096f7d2ba099d6f894 1900 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.dsc
+ 9bec605946c0d7e8b0534a77577fa2fb 208341 unrar-nonfree_5.0.10.orig.tar.gz
+ ce90c59fe233d65c1fa115f6b709cbd3 8231 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha1:
+ c3ea1c34b8e4ccd4f81b87b6e392568a2b4f5f36 1900 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.dsc
+ d48c245a58193c373fd2633f40829dcdda33b387 208341 unrar-nonfree_5.0.10.orig.tar.gz
+ 42468c7ae3c5615c0c4cfc9d1f2573cbc6677ebc 8231 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha256:
+ 0d2d77a4858c36036c9ac97d02e3fc8a7fca1ffe20ec1d6c523178b3043abcb2 1900 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.dsc
+ 05e4451d49eee36f141f24f7eb48c4886e84d54e98db9e64f74e8fe50ab80dc1 208341 unrar-nonfree_5.0.10.orig.tar.gz
+ 9e493a0e707efaf2de8f7b1bed2db77a3dc7ab6422252d60fa1726bc31822f71 8231 unrar-nonfree_5.0.10-1ubuntu0.14.04.1.debian.tar.gz
+Autobuild: yes
+
+Package: virtualbox
+Format: 3.0 (quilt)
+Binary: virtualbox-qt, virtualbox, virtualbox-dbg, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils
+Architecture: amd64 i386 all
+Version: 4.3.40-dfsg-0ubuntu14.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm (>= 0.7.0), zlib1g-dev
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git
+Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox.git
+Directory: pool/multiverse/v/virtualbox
+Package-List:
+ virtualbox deb contrib/misc optional arch=amd64,i386
+ virtualbox-dbg deb contrib/debug extra arch=amd64,i386
+ virtualbox-dkms deb contrib/kernel optional arch=all
+ virtualbox-guest-dkms deb contrib/kernel optional arch=all
+ virtualbox-guest-source deb contrib/kernel optional arch=all
+ virtualbox-guest-utils deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11 deb contrib/x11 optional arch=amd64,i386
+ virtualbox-qt deb contrib/misc optional arch=amd64,i386
+ virtualbox-source deb contrib/kernel optional arch=all
+Files:
+ f22ce1fa157f33cbd6ca57679f8cdaef 3813 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.dsc
+ cb29b5352b12b5655d54a430ecf29ee2 47609056 virtualbox_4.3.40-dfsg.orig.tar.xz
+ 58ac5ba5bc663795d3c232babb5c7d92 76020 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.debian.tar.xz
+Checksums-Sha1:
+ 89e66cc4a37e5213624ef01b296108400325d01e 3813 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.dsc
+ 203302c99a1f5b9806707a1a09f068eb45a663a1 47609056 virtualbox_4.3.40-dfsg.orig.tar.xz
+ 3f280358221ac3dfb366557d9a86b823895f7e0c 76020 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.debian.tar.xz
+Checksums-Sha256:
+ f5b497a342a675998f5d8ff052432568fd8ebde34810a30151faa6368c6e297f 3813 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.dsc
+ 94b2800b424f3cbb9148032ce9a75b23362268adbda32c8c5226931d838623ab 47609056 virtualbox_4.3.40-dfsg.orig.tar.xz
+ 952d5679bb6e67c53db4db06048067515c5f62a57570a62f9e5db5221c18a5a6 76020 virtualbox_4.3.40-dfsg-0ubuntu14.04.1.debian.tar.xz
+
+Package: virtualbox-guest-additions-iso
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-additions-iso
+Architecture: all
+Version: 4.3.40-0ubuntu1.14.04.1
+Priority: extra
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox-guest-additions-iso.git
+Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox-guest-additions-iso.git
+Directory: pool/multiverse/v/virtualbox-guest-additions-iso
+Package-List:
+ virtualbox-guest-additions-iso deb non-free/misc extra arch=all
+Files:
+ 421aa4746a996a7e953217090655f10a 2369 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.dsc
+ 4fd009d5b3e3bcbf51e27eaa61951b75 43298626 virtualbox-guest-additions-iso_4.3.40.orig.tar.gz
+ dbd7ce866a135556fbc1169486c240d8 7720 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.debian.tar.xz
+Checksums-Sha1:
+ 83afb99f31ed5d6cf7a85d33f4b29167977ed6f0 2369 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.dsc
+ 1defaebdd5f22bc531425095e033689b8cb7de7e 43298626 virtualbox-guest-additions-iso_4.3.40.orig.tar.gz
+ 8abf7c080b86a2b5fc225570edcd3ef7a7cb5e72 7720 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.debian.tar.xz
+Checksums-Sha256:
+ ca940f3b2a2b0b73f5da7218eec2db4b113d742150e8d90ec8153e4ca654daa5 2369 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.dsc
+ 930f8abc48c9a95efa3fa142a15b957162a70d1602814d479ee9fbc42fbe447f 43298626 virtualbox-guest-additions-iso_4.3.40.orig.tar.gz
+ 9fcd85613075b58c9773b78d011cd9697647ab8eea6c0e01b88c7d8679409d99 7720 virtualbox-guest-additions-iso_4.3.40-0ubuntu1.14.04.1.debian.tar.xz
+
+Package: virtualbox-lts-vivid
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-dkms-lts-vivid, virtualbox-guest-source-lts-vivid, virtualbox-guest-x11-lts-vivid, virtualbox-guest-utils-lts-vivid
+Architecture: all amd64 i386
+Version: 4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev-lts-vivid, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev-lts-vivid, xsltproc, yasm (>= 0.7.0), zlib1g-dev
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git
+Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox.git
+Directory: pool/multiverse/v/virtualbox-lts-vivid
+Package-List:
+ virtualbox-guest-dkms-lts-vivid deb contrib/kernel optional arch=all
+ virtualbox-guest-source-lts-vivid deb contrib/kernel optional arch=all
+ virtualbox-guest-utils-lts-vivid deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11-lts-vivid deb contrib/x11 optional arch=amd64,i386
+Files:
+ 3a42a35dd671c465b5a934a59a7ee6c2 3681 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ 1423337a5a9970dda72e60fcaa0f8d05 47713148 virtualbox-lts-vivid_4.3.36-dfsg.orig.tar.xz
+ cc659c811faeb2ac2ea3dc0ddcf57b7f 76344 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+Checksums-Sha1:
+ f88d93e62a8cda2f7c427a0a89cc5a2212c2209c 3681 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ b458c3c7ce0f1e9081dbcde9e39325653962a449 47713148 virtualbox-lts-vivid_4.3.36-dfsg.orig.tar.xz
+ 7f59ed20d62d96f02174edc1fc6ed6a1fb559f9d 76344 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+Checksums-Sha256:
+ a7989fd50c0da9b776957514dfdb2b53794a0daebf28ddd4cfb97ff04a063be1 3681 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ 09e7159d4e406ec9f0834e680bb4f3651519a5bbf535c8cc83fb635c2fd96f39 47713148 virtualbox-lts-vivid_4.3.36-dfsg.orig.tar.xz
+ 88139a7ae80502387063625d6f5a3e9d11e81b348879811795ddfc9d22113335 76344 virtualbox-lts-vivid_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+
+Package: virtualbox-lts-wily
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-dkms-lts-wily, virtualbox-guest-source-lts-wily, virtualbox-guest-x11-lts-wily, virtualbox-guest-utils-lts-wily
+Architecture: all amd64 i386
+Version: 4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev-lts-wily, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev-lts-wily, xsltproc, yasm (>= 0.7.0), zlib1g-dev
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git
+Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox.git
+Directory: pool/multiverse/v/virtualbox-lts-wily
+Package-List:
+ virtualbox-guest-dkms-lts-wily deb contrib/kernel optional arch=all
+ virtualbox-guest-source-lts-wily deb contrib/kernel optional arch=all
+ virtualbox-guest-utils-lts-wily deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11-lts-wily deb contrib/x11 optional arch=amd64,i386
+Files:
+ 484ecf5d3ff8ece3f0f51ce1acf1177a 3664 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ 1423337a5a9970dda72e60fcaa0f8d05 47713148 virtualbox-lts-wily_4.3.36-dfsg.orig.tar.xz
+ 37a6bf8548343b02063494701bc9879b 76304 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+Checksums-Sha1:
+ a540ec92decc71f305f0a2c7bc98b69b70888efb 3664 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ b458c3c7ce0f1e9081dbcde9e39325653962a449 47713148 virtualbox-lts-wily_4.3.36-dfsg.orig.tar.xz
+ c28367dc56c51d4330769b5749e9deb79ee10bcd 76304 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+Checksums-Sha256:
+ 57091a7b770f1f5e4dacdc79f99d9706a83034eac756d625c8dc7b7767c83db2 3664 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.dsc
+ 09e7159d4e406ec9f0834e680bb4f3651519a5bbf535c8cc83fb635c2fd96f39 47713148 virtualbox-lts-wily_4.3.36-dfsg.orig.tar.xz
+ f73490c4a59e8ac458d90dc20ec496ad05d825bc62041d2a6d0e89ffdda60cdb 76304 virtualbox-lts-wily_4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.4.debian.tar.xz
+
+Package: virtualbox-lts-xenial
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-dkms-lts-xenial, virtualbox-guest-source-lts-xenial, virtualbox-guest-x11-lts-xenial, virtualbox-guest-utils-lts-xenial
+Architecture: all amd64 i386
+Version: 4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 3.9.6
+Build-Depends: bzip2, debhelper (>= 9), default-jdk, dh-python, dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev-lts-xenial, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (>= 4.4.0), libqt4-network (>= 4.4.0), libqt4-opengl-dev (>= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (>= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev-lts-xenial, xsltproc, yasm (>= 0.7.0), zlib1g-dev
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git
+Vcs-Git: git://anonscm.debian.org/pkg-virtualbox/virtualbox.git
+Directory: pool/multiverse/v/virtualbox-lts-xenial
+Package-List:
+ virtualbox-guest-dkms-lts-xenial deb contrib/kernel optional arch=all
+ virtualbox-guest-source-lts-xenial deb contrib/kernel optional arch=all
+ virtualbox-guest-utils-lts-xenial deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11-lts-xenial deb contrib/x11 optional arch=amd64,i386
+Files:
+ b32bd318dc55a576050a397f4efb4633 3684 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.dsc
+ cb29b5352b12b5655d54a430ecf29ee2 47609056 virtualbox-lts-xenial_4.3.40-dfsg.orig.tar.xz
+ 16823c298ef72b72651fa9b76059426f 76644 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.debian.tar.xz
+Checksums-Sha1:
+ b56a75b04e6a53cb4fa432439fd167897b5a243c 3684 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.dsc
+ 203302c99a1f5b9806707a1a09f068eb45a663a1 47609056 virtualbox-lts-xenial_4.3.40-dfsg.orig.tar.xz
+ 2030a031e93de21ad1bc7fea44460aded1b6c30b 76644 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.debian.tar.xz
+Checksums-Sha256:
+ 54aa534d1b0523cc9dd61c64bb3d79dab6710acd6126d1786e81833e88d558a7 3684 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.dsc
+ 94b2800b424f3cbb9148032ce9a75b23362268adbda32c8c5226931d838623ab 47609056 virtualbox-lts-xenial_4.3.40-dfsg.orig.tar.xz
+ ce7b5403028fc63cfa0cff7796b350883a12e2638eb5ed4b50270188e485d2bf 76644 virtualbox-lts-xenial_4.3.40-dfsg-0ubuntu1.14.04.1~14.04.1.debian.tar.xz
+
+Package: xaralx
+Format: 3.0 (quilt)
+Binary: xaralx, libxar-dev, xaralx-examples, xaralx-svg
+Architecture: i386 amd64 all
+Version: 0.7r1785-5ubuntu2build0.1
+Priority: optional
+Section: multiverse/graphics
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Joachim Breitner <nomeata@debian.org>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 4.0.0), dpatch, automake1.9, wx-common, wx2.8-headers, libwxgtk2.8-dev, pkg-config, libgtk2.0-dev, libjpeg-dev, zip, libxml2-dev
+Homepage: http://www.xaraxtreme.org/
+Directory: pool/multiverse/x/xaralx
+Package-List:
+ libxar-dev deb non-free/libdevel optional arch=i386,amd64
+ xaralx deb non-free/graphics optional arch=i386,amd64
+ xaralx-examples deb non-free/graphics optional arch=all
+ xaralx-svg deb non-free/graphics optional arch=i386,amd64
+Files:
+ 7a98c0af138c9d905610374fd29c57a3 1579 xaralx_0.7r1785-5ubuntu2build0.1.dsc
+ 01c12e4307a861f55f3a06ad2a1dddbb 30356254 xaralx_0.7r1785.orig.tar.gz
+ 41f0b38752d7e5724bba451fb23cfd5e 194336 xaralx_0.7r1785-5ubuntu2build0.1.debian.tar.xz
+Checksums-Sha1:
+ e04c2629cd272575c4001cc16a6874d71c978077 1579 xaralx_0.7r1785-5ubuntu2build0.1.dsc
+ 9a4d571ae98b8966e5490ebc347d5ddf71f758dd 30356254 xaralx_0.7r1785.orig.tar.gz
+ 86292ee155433051f7d9c13486a30704e2dd1452 194336 xaralx_0.7r1785-5ubuntu2build0.1.debian.tar.xz
+Checksums-Sha256:
+ 8c1b4d8a46f78c784abea255b5dc36c038a5c80c85eebaa2ebaecff57ca61acd 1579 xaralx_0.7r1785-5ubuntu2build0.1.dsc
+ ab2620253b0f7ae83f27e9ac4314b71fa78367e6fe442fdcd37fb6a61da53972 30356254 xaralx_0.7r1785.orig.tar.gz
+ 302cb89d472a28e9bf488af770b8d3996c561020c1740cbfa15b01c635fa28da 194336 xaralx_0.7r1785-5ubuntu2build0.1.debian.tar.xz
+

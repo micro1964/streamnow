@@ -1,0 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MLDBM-Sync
+Upstream-Contact: Joshua Chamas, Chamas Enterprises Inc.
+Source: https://metacpan.org/release/MLDBM-Sync/
+
+Files: *
+Copyright: 2001-2002 Joshua Chamas, Chamas Enterprises Inc.
+License: Artistic or GPL-1+
+Comment:
+ Sponsored by development on NodeWorks http://www.nodeworks.com and
+ Apache::ASP http://www.apache-asp.org
+
+Files: debian/*
+Copyright: 2002-2005, Ivan Kohler <ivan-debian@420.am>
+  2008-2013, gregor herrmann <gregoa@debian.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

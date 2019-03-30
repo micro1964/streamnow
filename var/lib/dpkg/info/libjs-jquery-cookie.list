@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/javascript
+/usr/share/javascript/jquery-cookie
+/usr/share/javascript/jquery-cookie/jquery.cookie.min.js
+/usr/share/javascript/jquery-cookie/jquery.cookie.js
+/usr/share/doc
+/usr/share/doc/libjs-jquery-cookie
+/usr/share/doc/libjs-jquery-cookie/README.Debian
+/usr/share/doc/libjs-jquery-cookie/changelog.Debian.gz
+/usr/share/doc/libjs-jquery-cookie/copyright

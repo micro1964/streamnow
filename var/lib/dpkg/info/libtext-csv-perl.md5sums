@@ -1,0 +1,6 @@
+c594ee676ed615d3437de4ebbf37faa4  usr/share/doc/libtext-csv-perl/changelog.Debian.gz
+1d741509e0db519cabde39f8227326be  usr/share/doc/libtext-csv-perl/copyright
+efe5d15c22b29ee410eac1191ac8d724  usr/share/man/man3/Text::CSV.3pm.gz
+459662949087dffe2932289a51f3231c  usr/share/man/man3/Text::CSV_PP.3pm.gz
+aa750353c19b04375f4f3373db300fee  usr/share/perl5/Text/CSV.pm
+ac76df3040005b95ccbe2fa0f13f997b  usr/share/perl5/Text/CSV_PP.pm
